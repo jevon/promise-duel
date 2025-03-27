@@ -1,21 +1,23 @@
 [
   {
+    "id": "poilievre-1",
     "description": "Cut income taxes by 15% to make work pay",
     "quote": "That's why I've announced that a Canada first conservative government will cut income taxes by 15% to make work PID",
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
     "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
   },
   {
+    "id": "poilievre-2",
     "description": "Remove GST from new homes under $1.3 million",
     "quote": "First of all we will take the GST the federal sales tax off all new homes of under $1.3 million build the homes build the homes build the home build the",
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
     "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
   },
@@ -25,9 +27,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-3"
   },
   {
     "description": "Sell off 6,000 federal buildings and land to build homes",
@@ -35,9 +38,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-4"
   },
   {
     "description": "Axe the liberal carbon tax",
@@ -45,9 +49,10 @@
     "category": "Environment",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-5"
   },
   {
     "description": "Unleash resource production in the Ring of Fire",
@@ -55,9 +60,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-6"
   },
   {
     "description": "Repeal Bill C-75 and C-5 to ensure repeat offenders are not eligible for bail or house arrest",
@@ -65,9 +71,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-7"
   },
   {
     "description": "Declare selling over 40 milligrams of fentanyl as equivalent to mass murder",
@@ -75,9 +82,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-8"
   },
   {
     "description": "Invest in treatment and rehabilitation instead of providing taxpayer-funded opioids",
@@ -85,9 +93,10 @@
     "category": "Healthcare",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-9"
   },
   {
     "description": "Implement high-powered scanners and increase border security",
@@ -95,9 +104,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-10"
   },
   {
     "description": "Buy four new massive icebreakers and invest in military infrastructure",
@@ -105,9 +115,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-11"
   },
   {
     "description": "End the Century Initiative and focus on sustainable immigration",
@@ -115,9 +126,10 @@
     "category": "Immigration",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-12"
   },
   {
     "description": "Ban ministers from involvement in the World Economic Forum",
@@ -125,9 +137,10 @@
     "category": "Other",
     "confidence_level": "High",
     "transcript_id": "4hjNfCK9t8I",
-    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. \u2013 March 25, 2025",
+    "transcript_title": "Conservative Leader Pierre Poilievre addresses supporters in Stoney Creek, Ont. – March 25, 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I"
+    "transcript_url": "https://www.youtube.com/watch?v=4hjNfCK9t8I",
+    "id": "poilievre-13"
   },
   {
     "description": "Increase the basic personal amount for working seniors to $25,000, allowing them to earn more tax-free.",
@@ -137,7 +150,8 @@
     "transcript_id": "A8iuYc8pi0c",
     "transcript_title": "BREAKING: Lower taxes for seniors",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=A8iuYc8pi0c"
+    "transcript_url": "https://www.youtube.com/watch?v=A8iuYc8pi0c",
+    "id": "poilievre-14"
   },
   {
     "description": "Allow seniors to keep their RRSPs until age 73, giving them two extra years to save and invest.",
@@ -147,7 +161,8 @@
     "transcript_id": "A8iuYc8pi0c",
     "transcript_title": "BREAKING: Lower taxes for seniors",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=A8iuYc8pi0c"
+    "transcript_url": "https://www.youtube.com/watch?v=A8iuYc8pi0c",
+    "id": "poilievre-15"
   },
   {
     "description": "Commitment not to raise the retirement age and ensure OAS, GIS, and CPP payments continue to start at age 65.",
@@ -157,7 +172,8 @@
     "transcript_id": "A8iuYc8pi0c",
     "transcript_title": "BREAKING: Lower taxes for seniors",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=A8iuYc8pi0c"
+    "transcript_url": "https://www.youtube.com/watch?v=A8iuYc8pi0c",
+    "id": "poilievre-16"
   },
   {
     "description": "Cut income taxes by 15% for all Canadians",
@@ -167,7 +183,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-17"
   },
   {
     "description": "Remove GST on new homes under $1.3 million",
@@ -177,7 +194,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-18"
   },
   {
     "description": "Require municipalities to increase home building by 15% annually",
@@ -187,7 +205,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-19"
   },
   {
     "description": "Sell off federal buildings and land for housing development",
@@ -197,7 +216,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-20"
   },
   {
     "description": "Abolish the carbon tax",
@@ -207,7 +227,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-21"
   },
   {
     "description": "Unleash resource jobs and approve pipelines",
@@ -217,7 +238,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-22"
   },
   {
     "description": "Repeal C-69 and replace it with a law for faster permits",
@@ -227,7 +249,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-23"
   },
   {
     "description": "Bring back the $4,000 apprenticeship grant",
@@ -237,7 +260,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-24"
   },
   {
     "description": "Repeal C-75 and C-5 to address crime",
@@ -247,7 +271,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-25"
   },
   {
     "description": "Declare selling over 40 mg of fentanyl as mass murder",
@@ -257,7 +282,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-26"
   },
   {
     "description": "Invest in treatment and rehabilitation for drug addiction",
@@ -267,7 +293,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-27"
   },
   {
     "description": "Implement high-powered scanners at borders",
@@ -277,7 +304,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-28"
   },
   {
     "description": "Expand Canadian Armed Forces and procure new equipment",
@@ -287,7 +315,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-29"
   },
   {
     "description": "Reject the Century Initiative and adjust immigration levels",
@@ -297,7 +326,8 @@
     "transcript_id": "t2JQrOWFDlQ",
     "transcript_title": "LIVE: Rallying to put Canada First in Hamilton",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ"
+    "transcript_url": "https://www.youtube.com/watch?v=t2JQrOWFDlQ",
+    "id": "poilievre-30"
   },
   {
     "description": "Expand the GST exemption on new homes to include homes priced up to $1.3 million.",
@@ -307,7 +337,8 @@
     "transcript_id": "arhOe2NM8gs",
     "transcript_title": "Questions over Poilievre&#39;s decision to not get a security clearance | CTV National News for Mar. 25",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=arhOe2NM8gs"
+    "transcript_url": "https://www.youtube.com/watch?v=arhOe2NM8gs",
+    "id": "poilievre-31"
   },
   {
     "description": "Protect existing federal programs on dental care and child care.",
@@ -317,7 +348,8 @@
     "transcript_id": "arhOe2NM8gs",
     "transcript_title": "Questions over Poilievre&#39;s decision to not get a security clearance | CTV National News for Mar. 25",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=arhOe2NM8gs"
+    "transcript_url": "https://www.youtube.com/watch?v=arhOe2NM8gs",
+    "id": "poilievre-32"
   },
   {
     "description": "Continue dental care for those who have it.",
@@ -327,7 +359,8 @@
     "transcript_id": "arhOe2NM8gs",
     "transcript_title": "Questions over Poilievre&#39;s decision to not get a security clearance | CTV National News for Mar. 25",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=arhOe2NM8gs"
+    "transcript_url": "https://www.youtube.com/watch?v=arhOe2NM8gs",
+    "id": "poilievre-33"
   },
   {
     "description": "Expand options for parents regarding child care.",
@@ -337,7 +370,8 @@
     "transcript_id": "arhOe2NM8gs",
     "transcript_title": "Questions over Poilievre&#39;s decision to not get a security clearance | CTV National News for Mar. 25",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=arhOe2NM8gs"
+    "transcript_url": "https://www.youtube.com/watch?v=arhOe2NM8gs",
+    "id": "poilievre-34"
   },
   {
     "description": "Remove GST from new homes and eliminate sales tax on homes under $1.3 million",
@@ -347,7 +381,8 @@
     "transcript_id": "PqVbfjH3iMQ",
     "transcript_title": "LIVE: A tax cut for seniors to help",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ"
+    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ",
+    "id": "poilievre-35"
   },
   {
     "description": "Allow seniors to earn up to $34,000 tax-free",
@@ -357,7 +392,8 @@
     "transcript_id": "PqVbfjH3iMQ",
     "transcript_title": "LIVE: A tax cut for seniors to help",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ"
+    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ",
+    "id": "poilievre-36"
   },
   {
     "description": "Reduce income tax rate by 15% for income above $34,000",
@@ -367,7 +403,8 @@
     "transcript_id": "PqVbfjH3iMQ",
     "transcript_title": "LIVE: A tax cut for seniors to help",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ"
+    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ",
+    "id": "poilievre-37"
   },
   {
     "description": "Keep retirement age at 65 for CPP, OAS, and GIS",
@@ -377,7 +414,8 @@
     "transcript_id": "PqVbfjH3iMQ",
     "transcript_title": "LIVE: A tax cut for seniors to help",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ"
+    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ",
+    "id": "poilievre-38"
   },
   {
     "description": "Allow seniors to keep RRSPs invested until age 73",
@@ -387,7 +425,8 @@
     "transcript_id": "PqVbfjH3iMQ",
     "transcript_title": "LIVE: A tax cut for seniors to help",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ"
+    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ",
+    "id": "poilievre-39"
   },
   {
     "description": "Reject the Liberal Century Initiative to increase Canada's population to 100 million",
@@ -397,7 +436,8 @@
     "transcript_id": "PqVbfjH3iMQ",
     "transcript_title": "LIVE: A tax cut for seniors to help",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ"
+    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ",
+    "id": "poilievre-40"
   },
   {
     "description": "Crack down on tax havens used by wealthy individuals",
@@ -407,7 +447,8 @@
     "transcript_id": "PqVbfjH3iMQ",
     "transcript_title": "LIVE: A tax cut for seniors to help",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ"
+    "transcript_url": "https://www.youtube.com/watch?v=PqVbfjH3iMQ",
+    "id": "poilievre-41"
   },
   {
     "description": "Allow seniors to earn up to $34,000 tax-free",
@@ -415,9 +456,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-42"
   },
   {
     "description": "Cut taxes by 15% for all average workers across Canada",
@@ -425,9 +467,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-43"
   },
   {
     "description": "Keep the retirement age at 65",
@@ -435,9 +478,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-44"
   },
   {
     "description": "Allow seniors to keep their investments until age 73",
@@ -445,9 +489,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-45"
   },
   {
     "description": "Remove the GST on new homes under $1.3 million",
@@ -455,9 +500,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-46"
   },
   {
     "description": "Encourage municipalities to speed up permits and cut development taxes",
@@ -465,9 +511,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-47"
   },
   {
     "description": "Reverse the forestry decree",
@@ -475,9 +522,10 @@
     "category": "Environment",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-48"
   },
   {
     "description": "Work with Quebec to allow foreign workers in targeted situations",
@@ -485,9 +533,10 @@
     "category": "Immigration",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-49"
   },
   {
     "description": "Defend supply management for farmers",
@@ -495,9 +544,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "tQlCarI1s_w",
-    "transcript_title": "Pierre Poilievre maintient l\u2019\u00e2ge de la retraite et permettra aux a\u00een\u00e9s de gagner plus \u2013 26 mars 2025",
+    "transcript_title": "Pierre Poilievre maintient l’âge de la retraite et permettra aux aînés de gagner plus – 26 mars 2025",
     "transcript_date": "2025-03-26",
-    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w"
+    "transcript_url": "https://www.youtube.com/watch?v=tQlCarI1s_w",
+    "id": "poilievre-50"
   },
   {
     "description": "Remove GST on new homes under $1.3 million",
@@ -507,7 +557,8 @@
     "transcript_id": "myFliWuXy2U",
     "transcript_title": "LILLEY UNLEASHED: Poilievre putting housing affordability on the election agenda",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=myFliWuXy2U"
+    "transcript_url": "https://www.youtube.com/watch?v=myFliWuXy2U",
+    "id": "poilievre-51"
   },
   {
     "description": "Cutting income tax by 15% for the average worker",
@@ -515,9 +566,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "ou-1jYmtVnY",
-    "transcript_title": "Hope is on the way\u2014for a change.",
+    "transcript_title": "Hope is on the way—for a change.",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=ou-1jYmtVnY"
+    "transcript_url": "https://www.youtube.com/watch?v=ou-1jYmtVnY",
+    "id": "poilievre-52"
   },
   {
     "description": "Eliminate GST on new homes under $1.3 million",
@@ -525,9 +577,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-53"
   },
   {
     "description": "Make repeat offenders ineligible for bail, probation, parole, or house arrest",
@@ -535,9 +588,10 @@
     "category": "Other",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-54"
   },
   {
     "description": "Cap immigration so that population growth does not exceed housing stock growth",
@@ -545,9 +599,10 @@
     "category": "Immigration",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-55"
   },
   {
     "description": "Cut income taxes by 15%",
@@ -555,9 +610,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-56"
   },
   {
     "description": "Protect existing dental care and childcare programs",
@@ -565,9 +621,10 @@
     "category": "Healthcare",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-57"
   },
   {
     "description": "Increase flexibility in childcare programs",
@@ -575,9 +632,10 @@
     "category": "Education",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-58"
   },
   {
     "description": "Implement a 'blue seal' program for immigrant professionals",
@@ -585,9 +643,10 @@
     "category": "Other",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-59"
   },
   {
     "description": "Remove carbon tax and support energy sector",
@@ -595,9 +654,10 @@
     "category": "Environment",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-60"
   },
   {
     "description": "Reintroduce $4,000 apprenticeship grant",
@@ -605,9 +665,10 @@
     "category": "Education",
     "confidence_level": "High",
     "transcript_id": "vCrM2DIUnCs",
-    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M \u2013 March 25, 2025",
+    "transcript_title": "Pierre Poilievre pledges to eliminate GST on new homes under $1.3M – March 25, 2025",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs"
+    "transcript_url": "https://www.youtube.com/watch?v=vCrM2DIUnCs",
+    "id": "poilievre-61"
   },
   {
     "description": "Eliminate GST on all homes up to $1.3 million",
@@ -617,7 +678,8 @@
     "transcript_id": "bEPVX9sq_Hk",
     "transcript_title": "LIVE: Axe the tax on new homes",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk"
+    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk",
+    "id": "poilievre-62"
   },
   {
     "description": "Make repeat offenders permanently ineligible for bail, probation, parole, or house arrest",
@@ -627,7 +689,8 @@
     "transcript_id": "bEPVX9sq_Hk",
     "transcript_title": "LIVE: Axe the tax on new homes",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk"
+    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk",
+    "id": "poilievre-63"
   },
   {
     "description": "Cap immigration so that population growth never exceeds housing stock growth",
@@ -637,7 +700,8 @@
     "transcript_id": "bEPVX9sq_Hk",
     "transcript_title": "LIVE: Axe the tax on new homes",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk"
+    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk",
+    "id": "poilievre-64"
   },
   {
     "description": "Cut income taxes by 15%",
@@ -647,7 +711,8 @@
     "transcript_id": "bEPVX9sq_Hk",
     "transcript_title": "LIVE: Axe the tax on new homes",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk"
+    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk",
+    "id": "poilievre-65"
   },
   {
     "description": "Implement a 'blue seal' for immigrant professionals to work in their fields",
@@ -657,7 +722,8 @@
     "transcript_id": "bEPVX9sq_Hk",
     "transcript_title": "LIVE: Axe the tax on new homes",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk"
+    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk",
+    "id": "poilievre-66"
   },
   {
     "description": "Bring back the $4,000 apprenticeship grant",
@@ -667,7 +733,8 @@
     "transcript_id": "bEPVX9sq_Hk",
     "transcript_title": "LIVE: Axe the tax on new homes",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk"
+    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk",
+    "id": "poilievre-67"
   },
   {
     "description": "Expand child care availability with more flexibility",
@@ -677,7 +744,8 @@
     "transcript_id": "bEPVX9sq_Hk",
     "transcript_title": "LIVE: Axe the tax on new homes",
     "transcript_date": "2025-03-25",
-    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk"
+    "transcript_url": "https://www.youtube.com/watch?v=bEPVX9sq_Hk",
+    "id": "poilievre-68"
   },
   {
     "description": "Cut income taxes by 15% for the average worker or $2,000 for the average couple.",
@@ -687,7 +755,8 @@
     "transcript_id": "Z66mfrqempw",
     "transcript_title": "LIVE: Cut income taxes by 15% for the average Canadian",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw"
+    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw",
+    "id": "poilievre-69"
   },
   {
     "description": "Reduce the lowest tax bracket from 15% to 12.75%.",
@@ -697,7 +766,8 @@
     "transcript_id": "Z66mfrqempw",
     "transcript_title": "LIVE: Cut income taxes by 15% for the average Canadian",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw"
+    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw",
+    "id": "poilievre-70"
   },
   {
     "description": "Abolish the carbon tax.",
@@ -707,7 +777,8 @@
     "transcript_id": "Z66mfrqempw",
     "transcript_title": "LIVE: Cut income taxes by 15% for the average Canadian",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw"
+    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw",
+    "id": "poilievre-71"
   },
   {
     "description": "Remove GST from new homes.",
@@ -717,7 +788,8 @@
     "transcript_id": "Z66mfrqempw",
     "transcript_title": "LIVE: Cut income taxes by 15% for the average Canadian",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw"
+    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw",
+    "id": "poilievre-72"
   },
   {
     "description": "Lower taxes on investment to attract investment back to Canada.",
@@ -727,7 +799,8 @@
     "transcript_id": "Z66mfrqempw",
     "transcript_title": "LIVE: Cut income taxes by 15% for the average Canadian",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw"
+    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw",
+    "id": "poilievre-73"
   },
   {
     "description": "Cut bureaucracy, consultants, handouts to insiders, and foreign aid.",
@@ -737,7 +810,8 @@
     "transcript_id": "Z66mfrqempw",
     "transcript_title": "LIVE: Cut income taxes by 15% for the average Canadian",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw"
+    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw",
+    "id": "poilievre-74"
   },
   {
     "description": "Implement a 'dollar-for-dollar' law requiring ministers to find $1 of savings for every $1 of new spending.",
@@ -747,7 +821,8 @@
     "transcript_id": "Z66mfrqempw",
     "transcript_title": "LIVE: Cut income taxes by 15% for the average Canadian",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw"
+    "transcript_url": "https://www.youtube.com/watch?v=Z66mfrqempw",
+    "id": "poilievre-75"
   },
   {
     "description": "15% income tax cut for the average worker",
@@ -757,7 +832,8 @@
     "transcript_id": "jNMAtmcOAHU",
     "transcript_title": "Canada election 2025: Poilievre promises 15% income tax cut if Conservatives win | FULL",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU"
+    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU",
+    "id": "poilievre-76"
   },
   {
     "description": "Eliminate the GST on new homes",
@@ -767,7 +843,8 @@
     "transcript_id": "jNMAtmcOAHU",
     "transcript_title": "Canada election 2025: Poilievre promises 15% income tax cut if Conservatives win | FULL",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU"
+    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU",
+    "id": "poilievre-77"
   },
   {
     "description": "Repeal the carbon tax",
@@ -777,7 +854,8 @@
     "transcript_id": "jNMAtmcOAHU",
     "transcript_title": "Canada election 2025: Poilievre promises 15% income tax cut if Conservatives win | FULL",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU"
+    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU",
+    "id": "poilievre-78"
   },
   {
     "description": "Reduce the lowest income tax bracket from 15% to 12.75%",
@@ -787,7 +865,8 @@
     "transcript_id": "jNMAtmcOAHU",
     "transcript_title": "Canada election 2025: Poilievre promises 15% income tax cut if Conservatives win | FULL",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU"
+    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU",
+    "id": "poilievre-79"
   },
   {
     "description": "Cut bureaucracy and foreign aid to reduce costs",
@@ -797,7 +876,8 @@
     "transcript_id": "jNMAtmcOAHU",
     "transcript_title": "Canada election 2025: Poilievre promises 15% income tax cut if Conservatives win | FULL",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU"
+    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU",
+    "id": "poilievre-80"
   },
   {
     "description": "Introduce a dollar-for-dollar law for new government spending",
@@ -807,17 +887,19 @@
     "transcript_id": "jNMAtmcOAHU",
     "transcript_title": "Canada election 2025: Poilievre promises 15% income tax cut if Conservatives win | FULL",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU"
+    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU",
+    "id": "poilievre-81"
   },
   {
     "description": "Support natural resource projects",
-    "quote": "giving the green light to the natural resources project including GNL Qu\u00e9bec",
+    "quote": "giving the green light to the natural resources project including GNL Québec",
     "category": "Economy",
     "confidence_level": "Medium",
     "transcript_id": "jNMAtmcOAHU",
     "transcript_title": "Canada election 2025: Poilievre promises 15% income tax cut if Conservatives win | FULL",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU"
+    "transcript_url": "https://www.youtube.com/watch?v=jNMAtmcOAHU",
+    "id": "poilievre-82"
   },
   {
     "description": "Eliminate the carbon tax for everyone and everything",
@@ -827,7 +909,8 @@
     "transcript_id": "YVxc_FuwGhs",
     "transcript_title": "Conservative leader Poilievre begins campaign to be Canada&#39;s prime minister",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=YVxc_FuwGhs"
+    "transcript_url": "https://www.youtube.com/watch?v=YVxc_FuwGhs",
+    "id": "poilievre-83"
   },
   {
     "description": "Cut income tax so people can keep more of their earnings",
@@ -837,7 +920,8 @@
     "transcript_id": "YVxc_FuwGhs",
     "transcript_title": "Conservative leader Poilievre begins campaign to be Canada&#39;s prime minister",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=YVxc_FuwGhs"
+    "transcript_url": "https://www.youtube.com/watch?v=YVxc_FuwGhs",
+    "id": "poilievre-84"
   },
   {
     "description": "Remove the GST on homes to save up to $50,000",
@@ -847,7 +931,8 @@
     "transcript_id": "YVxc_FuwGhs",
     "transcript_title": "Conservative leader Poilievre begins campaign to be Canada&#39;s prime minister",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=YVxc_FuwGhs"
+    "transcript_url": "https://www.youtube.com/watch?v=YVxc_FuwGhs",
+    "id": "poilievre-85"
   },
   {
     "description": "Insist President Trump recognize Canada's independence and sovereignty",
@@ -857,7 +942,8 @@
     "transcript_id": "efZB_kLoAOo",
     "transcript_title": "WATCH: Poilievre and Carney are focused on Trump",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=efZB_kLoAOo"
+    "transcript_url": "https://www.youtube.com/watch?v=efZB_kLoAOo",
+    "id": "poilievre-86"
   },
   {
     "description": "Insist President Trump stop imposing tariffs on Canada",
@@ -867,7 +953,8 @@
     "transcript_id": "efZB_kLoAOo",
     "transcript_title": "WATCH: Poilievre and Carney are focused on Trump",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=efZB_kLoAOo"
+    "transcript_url": "https://www.youtube.com/watch?v=efZB_kLoAOo",
+    "id": "poilievre-87"
   },
   {
     "description": "Strengthen Canada to stand independently against the United States",
@@ -877,7 +964,8 @@
     "transcript_id": "efZB_kLoAOo",
     "transcript_title": "WATCH: Poilievre and Carney are focused on Trump",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=efZB_kLoAOo"
+    "transcript_url": "https://www.youtube.com/watch?v=efZB_kLoAOo",
+    "id": "poilievre-88"
   },
   {
     "description": "Commitment to ax taxes",
@@ -887,7 +975,8 @@
     "transcript_id": "ab6b_4VjGBc",
     "transcript_title": "Poilievre asked about Danielle Smith comments",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=ab6b_4VjGBc"
+    "transcript_url": "https://www.youtube.com/watch?v=ab6b_4VjGBc",
+    "id": "poilievre-89"
   },
   {
     "description": "Commitment to build homes",
@@ -897,7 +986,8 @@
     "transcript_id": "ab6b_4VjGBc",
     "transcript_title": "Poilievre asked about Danielle Smith comments",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=ab6b_4VjGBc"
+    "transcript_url": "https://www.youtube.com/watch?v=ab6b_4VjGBc",
+    "id": "poilievre-90"
   },
   {
     "description": "Commitment to unleash resources",
@@ -907,7 +997,8 @@
     "transcript_id": "ab6b_4VjGBc",
     "transcript_title": "Poilievre asked about Danielle Smith comments",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=ab6b_4VjGBc"
+    "transcript_url": "https://www.youtube.com/watch?v=ab6b_4VjGBc",
+    "id": "poilievre-91"
   },
   {
     "description": "Commitment to bring home jobs",
@@ -917,7 +1008,8 @@
     "transcript_id": "ab6b_4VjGBc",
     "transcript_title": "Poilievre asked about Danielle Smith comments",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=ab6b_4VjGBc"
+    "transcript_url": "https://www.youtube.com/watch?v=ab6b_4VjGBc",
+    "id": "poilievre-92"
   },
   {
     "description": "Middle-class income tax cut",
@@ -927,7 +1019,8 @@
     "transcript_id": "97pJXm322jY",
     "transcript_title": "Conservative Leader Pierre Poilievre pledges middle-class income tax cut",
     "transcript_date": "2025-03-24",
-    "transcript_url": "https://www.youtube.com/watch?v=97pJXm322jY"
+    "transcript_url": "https://www.youtube.com/watch?v=97pJXm322jY",
+    "id": "poilievre-93"
   },
   {
     "description": "Repeal the carbon tax law and eliminate the carbon tax permanently",
@@ -935,9 +1028,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "9KLq9dEOxSg",
-    "transcript_title": "LIVE: Canada First \u2014 For a Change",
+    "transcript_title": "LIVE: Canada First — For a Change",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg"
+    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg",
+    "id": "poilievre-94"
   },
   {
     "description": "Remove sales tax on new homes and incentivize municipalities to speed up permits",
@@ -945,9 +1039,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "9KLq9dEOxSg",
-    "transcript_title": "LIVE: Canada First \u2014 For a Change",
+    "transcript_title": "LIVE: Canada First — For a Change",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg"
+    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg",
+    "id": "poilievre-95"
   },
   {
     "description": "Repeal liberal no new pipelines law and lift the liberal cap on energy",
@@ -955,9 +1050,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "9KLq9dEOxSg",
-    "transcript_title": "LIVE: Canada First \u2014 For a Change",
+    "transcript_title": "LIVE: Canada First — For a Change",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg"
+    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg",
+    "id": "poilievre-96"
   },
   {
     "description": "Create new Canada first building zones for pre-approved construction sites",
@@ -965,9 +1061,10 @@
     "category": "Economy",
     "confidence_level": "Medium",
     "transcript_id": "9KLq9dEOxSg",
-    "transcript_title": "LIVE: Canada First \u2014 For a Change",
+    "transcript_title": "LIVE: Canada First — For a Change",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg"
+    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg",
+    "id": "poilievre-97"
   },
   {
     "description": "Knock down interprovincial trade barriers for a unified market",
@@ -975,9 +1072,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "9KLq9dEOxSg",
-    "transcript_title": "LIVE: Canada First \u2014 For a Change",
+    "transcript_title": "LIVE: Canada First — For a Change",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg"
+    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg",
+    "id": "poilievre-98"
   },
   {
     "description": "Impose mandatory jail time on repeat offenders and ban hard drugs",
@@ -985,9 +1083,10 @@
     "category": "Other",
     "confidence_level": "High",
     "transcript_id": "9KLq9dEOxSg",
-    "transcript_title": "LIVE: Canada First \u2014 For a Change",
+    "transcript_title": "LIVE: Canada First — For a Change",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg"
+    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg",
+    "id": "poilievre-99"
   },
   {
     "description": "Cap immigration and stop the radical Century initiative",
@@ -995,9 +1094,10 @@
     "category": "Immigration",
     "confidence_level": "High",
     "transcript_id": "9KLq9dEOxSg",
-    "transcript_title": "LIVE: Canada First \u2014 For a Change",
+    "transcript_title": "LIVE: Canada First — For a Change",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg"
+    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg",
+    "id": "poilievre-100"
   },
   {
     "description": "Rebuild the military with new equipment and a new Arctic base",
@@ -1005,9 +1105,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "9KLq9dEOxSg",
-    "transcript_title": "LIVE: Canada First \u2014 For a Change",
+    "transcript_title": "LIVE: Canada First — For a Change",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg"
+    "transcript_url": "https://www.youtube.com/watch?v=9KLq9dEOxSg",
+    "id": "poilievre-101"
   },
   {
     "description": "Insist that the U.S. President recognize Canada's independence and sovereignty",
@@ -1017,7 +1118,8 @@
     "transcript_id": "Oz4LvOCXgpo",
     "transcript_title": "Poilievre asked if he respects Donald Trump",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=Oz4LvOCXgpo"
+    "transcript_url": "https://www.youtube.com/watch?v=Oz4LvOCXgpo",
+    "id": "poilievre-102"
   },
   {
     "description": "Insist that the U.S. President stop imposing tariffs on Canada",
@@ -1027,7 +1129,8 @@
     "transcript_id": "Oz4LvOCXgpo",
     "transcript_title": "Poilievre asked if he respects Donald Trump",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=Oz4LvOCXgpo"
+    "transcript_url": "https://www.youtube.com/watch?v=Oz4LvOCXgpo",
+    "id": "poilievre-103"
   },
   {
     "description": "Strengthen Canada to stand independently and assertively against the U.S.",
@@ -1037,7 +1140,8 @@
     "transcript_id": "Oz4LvOCXgpo",
     "transcript_title": "Poilievre asked if he respects Donald Trump",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=Oz4LvOCXgpo"
+    "transcript_url": "https://www.youtube.com/watch?v=Oz4LvOCXgpo",
+    "id": "poilievre-104"
   },
   {
     "description": "Cut taxes on work, housing, energy, and investment to bring jobs back to Canada.",
@@ -1045,9 +1149,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-105"
   },
   {
     "description": "Eliminate the GST on homes to make homeownership more affordable for young people.",
@@ -1055,9 +1160,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-106"
   },
   {
     "description": "Repeal the Liberal anti-pipeline law C69 and other restrictions to boost natural resource projects.",
@@ -1065,9 +1171,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-107"
   },
   {
     "description": "Provide incentives to municipalities to accelerate building permits and free up land for housing.",
@@ -1075,9 +1182,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-108"
   },
   {
     "description": "Limit immigration and end the Liberal initiative to triple Canada's population.",
@@ -1085,9 +1193,10 @@
     "category": "Immigration",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-109"
   },
   {
     "description": "Rebuild Canada's armed forces with new icebreakers, a new military base, and support for veterans.",
@@ -1095,9 +1204,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-110"
   },
   {
     "description": "Repeal the carbon tax law and eliminate it permanently.",
@@ -1105,9 +1215,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-111"
   },
   {
     "description": "Impose mandatory jail time on repeat offenders and ban hard drugs.",
@@ -1115,9 +1226,10 @@
     "category": "Other",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-112"
   },
   {
     "description": "Support the creation of a national pipeline to bypass the American market and sell oil to Europe.",
@@ -1125,9 +1237,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "T6fgqrF7c7g",
-    "transcript_title": "Pierre Poilievre launches Conservative election campaign \u2013 March 23, 2025",
+    "transcript_title": "Pierre Poilievre launches Conservative election campaign – March 23, 2025",
     "transcript_date": "2025-03-23",
-    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g"
+    "transcript_url": "https://www.youtube.com/watch?v=T6fgqrF7c7g",
+    "id": "poilievre-113"
   },
   {
     "description": "Massive tax cut on work, investment, energy, home building, and making stuff in Canada",
@@ -1137,7 +1250,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-114"
   },
   {
     "description": "Remove GST from homes to save up to $50,000",
@@ -1147,7 +1261,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-115"
   },
   {
     "description": "Incentivize municipalities to speed up permits, free up land, and cut development charges",
@@ -1157,7 +1272,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-116"
   },
   {
     "description": "Abolish the carbon tax permanently",
@@ -1167,7 +1283,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-117"
   },
   {
     "description": "Repeal liberal laws like the no new pipelines act c69",
@@ -1177,7 +1294,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-118"
   },
   {
     "description": "Grant rapid permission to build pipelines, natural gas exports, data centers, mines, and other natural resources",
@@ -1187,7 +1305,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-119"
   },
   {
     "description": "Carry out the biggest crackdown on crime and drugs in Canadian history",
@@ -1197,7 +1316,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-120"
   },
   {
     "description": "Secure borders and strengthen the military",
@@ -1207,7 +1327,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-121"
   },
   {
     "description": "Fire government officials who fail in their duties",
@@ -1217,7 +1338,8 @@
     "transcript_id": "jb_BM9M3fnk",
     "transcript_title": "LIVE: The same Carney-Trudeau crew",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk"
+    "transcript_url": "https://www.youtube.com/watch?v=jb_BM9M3fnk",
+    "id": "poilievre-122"
   },
   {
     "description": "Confront President Trump directly and respond with counter-tariffs.",
@@ -1225,9 +1347,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-123"
   },
   {
     "description": "Cut bureaucracy, taxes, and duties to promote free trade between provinces.",
@@ -1235,19 +1358,21 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-124"
   },
   {
-    "description": "Exploit natural resources like GNL Qu\u00e9bec to ensure economic and energy sovereignty.",
-    "quote": "exploit our natural resources like GNL Qu\u00e9bec to ensure our economic and energy sovereignty.",
+    "description": "Exploit natural resources like GNL Québec to ensure economic and energy sovereignty.",
+    "quote": "exploit our natural resources like GNL Québec to ensure our economic and energy sovereignty.",
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-125"
   },
   {
     "description": "Remove GST from new houses to make home ownership more affordable.",
@@ -1255,9 +1380,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-126"
   },
   {
     "description": "Accelerate the approval of projects to make Canada autonomous and independent.",
@@ -1265,9 +1391,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-127"
   },
   {
     "description": "Repeal the No New Pipelines Act C69 and grant rapid permission to build more pipelines.",
@@ -1275,9 +1402,10 @@
     "category": "Environment",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-128"
   },
   {
     "description": "Carry out the biggest crackdown on crime and drugs in Canadian history.",
@@ -1285,9 +1413,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-129"
   },
   {
     "description": "Secure borders and strengthen the military.",
@@ -1295,9 +1424,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-130"
   },
   {
     "description": "Implement a tax cut on work, investment, energy, homebuilding, and manufacturing.",
@@ -1305,9 +1435,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-131"
   },
   {
     "description": "Abolish the carbon tax permanently.",
@@ -1315,9 +1446,10 @@
     "category": "Environment",
     "confidence_level": "High",
     "transcript_id": "MtO4Ybkt3s0",
-    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet \u2013 March 14, 2025",
+    "transcript_title": "Pierre Poilievre reacts to the swearing-in of PM Mark Carney and his cabinet – March 14, 2025",
     "transcript_date": "2025-03-14",
-    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0"
+    "transcript_url": "https://www.youtube.com/watch?v=MtO4Ybkt3s0",
+    "id": "poilievre-132"
   },
   {
     "description": "Commitment to ax taxes",
@@ -1327,7 +1459,8 @@
     "transcript_id": "GZiw-M0j1nM",
     "transcript_title": "Poilievre asked about polls suggesting Carney is more trusted to deal with Trump",
     "transcript_date": "2025-03-10",
-    "transcript_url": "https://www.youtube.com/watch?v=GZiw-M0j1nM"
+    "transcript_url": "https://www.youtube.com/watch?v=GZiw-M0j1nM",
+    "id": "poilievre-133"
   },
   {
     "description": "Commitment to build homes",
@@ -1337,7 +1470,8 @@
     "transcript_id": "GZiw-M0j1nM",
     "transcript_title": "Poilievre asked about polls suggesting Carney is more trusted to deal with Trump",
     "transcript_date": "2025-03-10",
-    "transcript_url": "https://www.youtube.com/watch?v=GZiw-M0j1nM"
+    "transcript_url": "https://www.youtube.com/watch?v=GZiw-M0j1nM",
+    "id": "poilievre-134"
   },
   {
     "description": "Commitment to unleash production of resources",
@@ -1347,7 +1481,8 @@
     "transcript_id": "GZiw-M0j1nM",
     "transcript_title": "Poilievre asked about polls suggesting Carney is more trusted to deal with Trump",
     "transcript_date": "2025-03-10",
-    "transcript_url": "https://www.youtube.com/watch?v=GZiw-M0j1nM"
+    "transcript_url": "https://www.youtube.com/watch?v=GZiw-M0j1nM",
+    "id": "poilievre-135"
   },
   {
     "description": "Commitment to bring home paychecks, production, and sovereignty",
@@ -1357,7 +1492,8 @@
     "transcript_id": "GZiw-M0j1nM",
     "transcript_title": "Poilievre asked about polls suggesting Carney is more trusted to deal with Trump",
     "transcript_date": "2025-03-10",
-    "transcript_url": "https://www.youtube.com/watch?v=GZiw-M0j1nM"
+    "transcript_url": "https://www.youtube.com/watch?v=GZiw-M0j1nM",
+    "id": "poilievre-136"
   },
   {
     "description": "Retaliate against American tariffs by targeting American goods",
@@ -1367,7 +1503,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-137"
   },
   {
     "description": "Use tariff revenue for tax cuts and targeted relief, not new government spending",
@@ -1377,7 +1514,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-138"
   },
   {
     "description": "Implement a tax cut on work, investment, energy, and home building",
@@ -1387,7 +1525,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-139"
   },
   {
     "description": "Repeal the Liberal no new pipelines law (C-69)",
@@ -1397,7 +1536,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-140"
   },
   {
     "description": "Greenlight LNG plants to diversify gas exports",
@@ -1407,7 +1547,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-141"
   },
   {
     "description": "Unleash a home building boom by removing taxes and red tape",
@@ -1417,7 +1558,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-142"
   },
   {
     "description": "Knock down interprovincial trade barriers",
@@ -1427,7 +1569,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-143"
   },
   {
     "description": "Secure borders and rebuild the military",
@@ -1437,7 +1580,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-144"
   },
   {
     "description": "Ban fentanyl and increase border security to combat drug entry",
@@ -1447,7 +1591,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-145"
   },
   {
     "description": "Treat fentanyl dealers as mass murderers with life sentences",
@@ -1457,7 +1602,8 @@
     "transcript_id": "XkO5mt_9IoI",
     "transcript_title": "Poilievre says Trump &quot;stabbed America&#39;s best friend in the back&quot; by putting tariffs on Canada | FULL",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI"
+    "transcript_url": "https://www.youtube.com/watch?v=XkO5mt_9IoI",
+    "id": "poilievre-146"
   },
   {
     "description": "Retaliate against U.S. tariffs by targeting American goods",
@@ -1467,7 +1613,8 @@
     "transcript_id": "7yCCUYzz-NY",
     "transcript_title": "LIVE: A Canada First response to unjustified U.S. tariffs",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY"
+    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY",
+    "id": "poilievre-147"
   },
   {
     "description": "Use tariff revenue for tax cuts and relief for workers",
@@ -1477,7 +1624,8 @@
     "transcript_id": "7yCCUYzz-NY",
     "transcript_title": "LIVE: A Canada First response to unjustified U.S. tariffs",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY"
+    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY",
+    "id": "poilievre-148"
   },
   {
     "description": "Implement a 'bring it home' tax cut",
@@ -1487,7 +1635,8 @@
     "transcript_id": "7yCCUYzz-NY",
     "transcript_title": "LIVE: A Canada First response to unjustified U.S. tariffs",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY"
+    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY",
+    "id": "poilievre-149"
   },
   {
     "description": "Repeal the liberal no new pipelines law (C-69)",
@@ -1497,7 +1646,8 @@
     "transcript_id": "7yCCUYzz-NY",
     "transcript_title": "LIVE: A Canada First response to unjustified U.S. tariffs",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY"
+    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY",
+    "id": "poilievre-150"
   },
   {
     "description": "Greenlight LNG plants and diversify gas exports",
@@ -1507,7 +1657,8 @@
     "transcript_id": "7yCCUYzz-NY",
     "transcript_title": "LIVE: A Canada First response to unjustified U.S. tariffs",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY"
+    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY",
+    "id": "poilievre-151"
   },
   {
     "description": "Remove taxes and red tape to boost home building",
@@ -1517,7 +1668,8 @@
     "transcript_id": "7yCCUYzz-NY",
     "transcript_title": "LIVE: A Canada First response to unjustified U.S. tariffs",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY"
+    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY",
+    "id": "poilievre-152"
   },
   {
     "description": "Secure borders and rebuild the military",
@@ -1527,7 +1679,8 @@
     "transcript_id": "7yCCUYzz-NY",
     "transcript_title": "LIVE: A Canada First response to unjustified U.S. tariffs",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY"
+    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY",
+    "id": "poilievre-153"
   },
   {
     "description": "Ban fentanyl and increase border security",
@@ -1537,7 +1690,8 @@
     "transcript_id": "7yCCUYzz-NY",
     "transcript_title": "LIVE: A Canada First response to unjustified U.S. tariffs",
     "transcript_date": "2025-03-04",
-    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY"
+    "transcript_url": "https://www.youtube.com/watch?v=7yCCUYzz-NY",
+    "id": "poilievre-154"
   },
   {
     "description": "Implement a broad economic tax cut to strengthen the economy",
@@ -1547,7 +1701,8 @@
     "transcript_id": "3CdhvqUuGaI",
     "transcript_title": "Poilievre talks dealing with tariffs, Trump&#39;s gender comments and Canada&#39;s &quot;weak&quot; government",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI"
+    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI",
+    "id": "poilievre-155"
   },
   {
     "description": "Retaliate against tariffs applied to Canadian businesses and negotiate a free trade deal with the US",
@@ -1557,7 +1712,8 @@
     "transcript_id": "3CdhvqUuGaI",
     "transcript_title": "Poilievre talks dealing with tariffs, Trump&#39;s gender comments and Canada&#39;s &quot;weak&quot; government",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI"
+    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI",
+    "id": "poilievre-156"
   },
   {
     "description": "Remove the carbon tax",
@@ -1567,7 +1723,8 @@
     "transcript_id": "3CdhvqUuGaI",
     "transcript_title": "Poilievre talks dealing with tariffs, Trump&#39;s gender comments and Canada&#39;s &quot;weak&quot; government",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI"
+    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI",
+    "id": "poilievre-157"
   },
   {
     "description": "Sell off 15% of federal buildings and non-ecological sensitive federal land to build more homes",
@@ -1577,7 +1734,8 @@
     "transcript_id": "3CdhvqUuGaI",
     "transcript_title": "Poilievre talks dealing with tariffs, Trump&#39;s gender comments and Canada&#39;s &quot;weak&quot; government",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI"
+    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI",
+    "id": "poilievre-158"
   },
   {
     "description": "Remove sales tax on new homes and incentivize municipalities to build more",
@@ -1587,7 +1745,8 @@
     "transcript_id": "3CdhvqUuGaI",
     "transcript_title": "Poilievre talks dealing with tariffs, Trump&#39;s gender comments and Canada&#39;s &quot;weak&quot; government",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI"
+    "transcript_url": "https://www.youtube.com/watch?v=3CdhvqUuGaI",
+    "id": "poilievre-159"
   },
   {
     "description": "Introduce an economic tax cut to strengthen the economy",
@@ -1597,7 +1756,8 @@
     "transcript_id": "88uwU80ZfQ8",
     "transcript_title": "One-on-one with CPC Leader Pierre Poilievre | Liberals are &quot;squabbling&quot; while Trump&#39;s tariffs loom",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8"
+    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8",
+    "id": "poilievre-160"
   },
   {
     "description": "Retaliate against tariffs applied to Canadian businesses",
@@ -1607,7 +1767,8 @@
     "transcript_id": "88uwU80ZfQ8",
     "transcript_title": "One-on-one with CPC Leader Pierre Poilievre | Liberals are &quot;squabbling&quot; while Trump&#39;s tariffs loom",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8"
+    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8",
+    "id": "poilievre-161"
   },
   {
     "description": "Negotiate a free trade deal with the US to eliminate tariffs",
@@ -1617,7 +1778,8 @@
     "transcript_id": "88uwU80ZfQ8",
     "transcript_title": "One-on-one with CPC Leader Pierre Poilievre | Liberals are &quot;squabbling&quot; while Trump&#39;s tariffs loom",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8"
+    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8",
+    "id": "poilievre-162"
   },
   {
     "description": "Eliminate the carbon tax",
@@ -1627,7 +1789,8 @@
     "transcript_id": "88uwU80ZfQ8",
     "transcript_title": "One-on-one with CPC Leader Pierre Poilievre | Liberals are &quot;squabbling&quot; while Trump&#39;s tariffs loom",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8"
+    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8",
+    "id": "poilievre-163"
   },
   {
     "description": "Remove sales tax on new homes to reduce housing costs",
@@ -1637,7 +1800,8 @@
     "transcript_id": "88uwU80ZfQ8",
     "transcript_title": "One-on-one with CPC Leader Pierre Poilievre | Liberals are &quot;squabbling&quot; while Trump&#39;s tariffs loom",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8"
+    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8",
+    "id": "poilievre-164"
   },
   {
     "description": "Incentivize municipalities to speed up permits and reduce development charges",
@@ -1647,7 +1811,8 @@
     "transcript_id": "88uwU80ZfQ8",
     "transcript_title": "One-on-one with CPC Leader Pierre Poilievre | Liberals are &quot;squabbling&quot; while Trump&#39;s tariffs loom",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8"
+    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8",
+    "id": "poilievre-165"
   },
   {
     "description": "Sell federal land to increase housing supply",
@@ -1657,7 +1822,8 @@
     "transcript_id": "88uwU80ZfQ8",
     "transcript_title": "One-on-one with CPC Leader Pierre Poilievre | Liberals are &quot;squabbling&quot; while Trump&#39;s tariffs loom",
     "transcript_date": "2025-01-22",
-    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8"
+    "transcript_url": "https://www.youtube.com/watch?v=88uwU80ZfQ8",
+    "id": "poilievre-166"
   },
   {
     "description": "End the carbon price",
@@ -1667,7 +1833,8 @@
     "transcript_id": "Et9VmnmiylQ",
     "transcript_title": "Poilievre says Canada selling oil and gas at &quot;massive price discount&quot; to US",
     "transcript_date": "2025-01-10",
-    "transcript_url": "https://www.youtube.com/watch?v=Et9VmnmiylQ"
+    "transcript_url": "https://www.youtube.com/watch?v=Et9VmnmiylQ",
+    "id": "poilievre-167"
   },
   {
     "description": "Build LNG plants, pipelines, refineries, upgraders, and other energy infrastructures",
@@ -1677,7 +1844,8 @@
     "transcript_id": "Et9VmnmiylQ",
     "transcript_title": "Poilievre says Canada selling oil and gas at &quot;massive price discount&quot; to US",
     "transcript_date": "2025-01-10",
-    "transcript_url": "https://www.youtube.com/watch?v=Et9VmnmiylQ"
+    "transcript_url": "https://www.youtube.com/watch?v=Et9VmnmiylQ",
+    "id": "poilievre-168"
   },
   {
     "description": "Promise to eliminate the carbon tax",
@@ -1685,9 +1853,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-169"
   },
   {
     "description": "Commitment to build more homes",
@@ -1695,9 +1864,10 @@
     "category": "Housing",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-170"
   },
   {
     "description": "Promise to fix the budget",
@@ -1705,9 +1875,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-171"
   },
   {
     "description": "Commitment to stop crime",
@@ -1715,9 +1886,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-172"
   },
   {
     "description": "Promise to take control of immigration",
@@ -1725,9 +1897,10 @@
     "category": "Immigration",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-173"
   },
   {
     "description": "Commitment to take control of spending deficits and inflation",
@@ -1735,9 +1908,10 @@
     "category": "Economy",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-174"
   },
   {
     "description": "Promise to secure borders",
@@ -1745,9 +1919,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-175"
   },
   {
     "description": "Commitment to rearm forces",
@@ -1755,9 +1930,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-176"
   },
   {
     "description": "Promise to ban drugs and treat addiction",
@@ -1765,9 +1941,10 @@
     "category": "Healthcare",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-177"
   },
   {
     "description": "Commitment to stop gun smugglers",
@@ -1775,9 +1952,10 @@
     "category": "Defense",
     "confidence_level": "High",
     "transcript_id": "fcDNWxmO8QA",
-    "transcript_title": "\u201cTrudeau is finally leaving\u201d | Pierre Poilievre reacts to resignation announcement",
+    "transcript_title": "“Trudeau is finally leaving” | Pierre Poilievre reacts to resignation announcement",
     "transcript_date": "2025-01-06",
-    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA"
+    "transcript_url": "https://www.youtube.com/watch?v=fcDNWxmO8QA",
+    "id": "poilievre-178"
   },
   {
     "description": "Cut bureaucracy, consultants, foreign aid, and corporate welfare to reduce deficit and taxes.",
@@ -1787,7 +1965,8 @@
     "transcript_id": "Dck8eZCpglc",
     "transcript_title": "Canada&#39;s Next Prime Minister | Pierre Poilievre | EP 511",
     "transcript_date": "2025-01-02",
-    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc"
+    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc",
+    "id": "poilievre-179"
   },
   {
     "description": "Repeal anti-energy law C-69 to cause a resource boom.",
@@ -1797,7 +1976,8 @@
     "transcript_id": "Dck8eZCpglc",
     "transcript_title": "Canada&#39;s Next Prime Minister | Pierre Poilievre | EP 511",
     "transcript_date": "2025-01-02",
-    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc"
+    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc",
+    "id": "poilievre-180"
   },
   {
     "description": "Incentivize municipalities to speed up home building.",
@@ -1807,7 +1987,8 @@
     "transcript_id": "Dck8eZCpglc",
     "transcript_title": "Canada&#39;s Next Prime Minister | Pierre Poilievre | EP 511",
     "transcript_date": "2025-01-02",
-    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc"
+    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc",
+    "id": "poilievre-181"
   },
   {
     "description": "Remove GST on new homes to make housing more affordable.",
@@ -1817,7 +1998,8 @@
     "transcript_id": "Dck8eZCpglc",
     "transcript_title": "Canada&#39;s Next Prime Minister | Pierre Poilievre | EP 511",
     "transcript_date": "2025-01-02",
-    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc"
+    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc",
+    "id": "poilievre-182"
   },
   {
     "description": "Cut carbon tax to signal serious commitment to economic reform.",
@@ -1827,7 +2009,8 @@
     "transcript_id": "Dck8eZCpglc",
     "transcript_title": "Canada&#39;s Next Prime Minister | Pierre Poilievre | EP 511",
     "transcript_date": "2025-01-02",
-    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc"
+    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc",
+    "id": "poilievre-183"
   },
   {
     "description": "Implement the biggest crackdown on crime in Canadian history.",
@@ -1837,7 +2020,8 @@
     "transcript_id": "Dck8eZCpglc",
     "transcript_title": "Canada&#39;s Next Prime Minister | Pierre Poilievre | EP 511",
     "transcript_date": "2025-01-02",
-    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc"
+    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc",
+    "id": "poilievre-184"
   },
   {
     "description": "Slow down immigration numbers and end fraud in international student and temporary foreign worker programs.",
@@ -1847,6 +2031,7 @@
     "transcript_id": "Dck8eZCpglc",
     "transcript_title": "Canada&#39;s Next Prime Minister | Pierre Poilievre | EP 511",
     "transcript_date": "2025-01-02",
-    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc"
+    "transcript_url": "https://www.youtube.com/watch?v=Dck8eZCpglc",
+    "id": "poilievre-185"
   }
 ]
