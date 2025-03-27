@@ -2,20 +2,19 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-// https://vitejs.dev/config/
-export default defineConfig(({ mode, command }) => ({
-  base: mode === 'production' ? "/promise-duel/" : "/",
-  server: {
-    host: "::",
-    port: 8080,
-  },
+// Config optimized for local file viewing
+export default defineConfig({
+  base: "./",
   build: {
-    // For local viewing, inline all assets into a single file
+    // Bundle everything into a single file
     cssCodeSplit: false,
     rollupOptions: {
       output: {
         manualChunks: undefined,
         inlineDynamicImports: true,
+        entryFileNames: `assets/[name].js`,
+        chunkFileNames: `assets/[name].js`,
+        assetFileNames: `assets/[name].[ext]`
       }
     }
   },
@@ -27,4 +26,4 @@ export default defineConfig(({ mode, command }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+}); 
