@@ -1,34 +1,25 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 
 const Header: React.FC = () => {
-  const headerRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const headerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
+    let lastScrollY = window.scrollY;
+
     const handleScroll = () => {
-      if (!headerRef.current) return;
+      const currentScrollY = window.scrollY;
       
-      const scrollPosition = window.scrollY;
-      const heroHeight = window.innerHeight * 0.6; // Approximately the hero section height
-      
-      // Set visibility based on scroll position relative to hero section
-      setIsVisible(scrollPosition > heroHeight);
-      
-      // Apply styles based on scroll depth
-      if (scrollPosition > heroHeight + 50) {
-        headerRef.current.classList.add('backdrop-blur-lg', 'bg-black/70');
-        headerRef.current.classList.remove('bg-transparent');
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsVisible(false);
       } else {
-        headerRef.current.classList.add('bg-transparent');
-        headerRef.current.classList.remove('backdrop-blur-lg', 'bg-black/70');
+        setIsVisible(true);
       }
+      
+      lastScrollY = currentScrollY;
     };
 
-    window.addEventListener('scroll', handleScroll);
-    // Initial check
-    handleScroll();
-    
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -39,7 +30,7 @@ const Header: React.FC = () => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full'
       }`}
     >
-      <div className="flex flex-col items-center justify-center px-6 py-4 lg:py-6">
+      <div className="flex flex-col items-center justify-center px-6 py-4 lg:py-6 bg-black/90 backdrop-blur-md">
         <div className="flex items-center gap-3">
           <div className="text-carney text-xl md:text-2xl font-oswald tracking-wider animate-slide-in-left">MARK CARNEY</div>
           <div className="h-8 w-0.5 bg-white/50 mx-2 rotate-12"></div>

@@ -89,7 +89,7 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="text-white/80 max-w-2xl mx-auto mt-8 font-montserrat animate-fade-in" style={{ animationDelay: '0.6s' }}>
+          <div className="text-white/80 max-w-2xl mx-auto mt-8 font-montserrat animate-fade-in px-4" style={{ animationDelay: '0.6s' }}>
             Track and compare the political promises made during the 2025 Canadian election cycle. 
             Click on video links to see the exact moment each promise was made.
           </div>

@@ -8,10 +8,6 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    headers: {
-      'Content-Type': 'application/javascript',
-      'X-Content-Type-Options': 'nosniff'
-    }
   },
   build: {
     outDir: 'dist',
@@ -22,15 +18,15 @@ export default defineConfig(({ mode }) => ({
         main: path.resolve(__dirname, 'index.html'),
       },
       output: {
-        entryFileNames: mode === 'production' ? 'assets/[name].[hash].mjs' : 'assets/[name].[hash].js',
-        chunkFileNames: mode === 'production' ? 'assets/[name].[hash].mjs' : 'assets/[name].[hash].js',
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
         assetFileNames: (assetInfo) => {
           if (!assetInfo.name) return 'assets/[name].[hash].[ext]';
           if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(assetInfo.name)) {
             return 'uploads/[name].[ext]';
           }
           if (/\.js$/.test(assetInfo.name)) {
-            return mode === 'production' ? 'assets/[name].[hash].mjs' : 'assets/[name].[hash].js';
+            return 'assets/[name].[hash].js';
           }
           return 'assets/[name].[hash].[ext]';
         }
