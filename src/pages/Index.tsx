@@ -10,6 +10,7 @@ const Index = () => {
   const [mounted, setMounted] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [activePolitician, setActivePolitician] = useState<'carney' | 'poilievre'>('carney');
   
   const carneyPromises: PromiseData[] = carneyPromisesData.map(promise => ({
     ...promise,
@@ -59,7 +60,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-black text-white pb-20">
-      <Header />
+      <Header activePolitician={activePolitician} onPoliticianChange={setActivePolitician} />
       <div 
         className="min-h-[50vh] md:min-h-[60vh] flex items-center justify-center relative overflow-hidden hero-section"
         style={{
@@ -128,20 +129,24 @@ const Index = () => {
           categories={allCategories}
         />
         
-        <div className="flex flex-col lg:flex-row -mx-4">
-          <PoliticianColumn 
-            promises={filteredCarneyPromises} 
-            politician="carney"
-            backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-red-texture.png`}
-            category={selectedCategory}
-          />
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className={`w-full lg:w-1/2 transition-all duration-300 ${activePolitician === 'carney' ? 'block' : 'hidden lg:block'}`}>
+            <PoliticianColumn 
+              promises={filteredCarneyPromises} 
+              politician="carney"
+              backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-red-texture.png`}
+              category={selectedCategory}
+            />
+          </div>
           
-          <PoliticianColumn 
-            promises={filteredPoilievrePromises} 
-            politician="poilievre"
-            backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-blue-texture.png`}
-            category={selectedCategory}
-          />
+          <div className={`w-full lg:w-1/2 transition-all duration-300 ${activePolitician === 'poilievre' ? 'block' : 'hidden lg:block'}`}>
+            <PoliticianColumn 
+              promises={filteredPoilievrePromises} 
+              politician="poilievre"
+              backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-blue-texture.png`}
+              category={selectedCategory}
+            />
+          </div>
         </div>
       </div>
       

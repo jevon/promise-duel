@@ -21,7 +21,7 @@ const PoliticianColumn: React.FC<PoliticianColumnProps> = ({
     : promises;
   
   return (
-    <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0 relative animate-fade-in" 
+    <div className="w-full relative animate-fade-in" 
          style={{ 
            backgroundImage: `url(${backgroundImage})`,
            backgroundRepeat: 'repeat',

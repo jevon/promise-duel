@@ -1,6 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  activePolitician?: 'carney' | 'poilievre';
+  onPoliticianChange?: (politician: 'carney' | 'poilievre') => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ activePolitician, onPoliticianChange }) => {
   const [isVisible, setIsVisible] = useState(false);
   const headerRef = useRef<HTMLElement>(null);
 
@@ -29,9 +34,23 @@ const Header: React.FC = () => {
     >
       <div className="flex flex-col items-center justify-center px-6 py-4 lg:py-6 bg-black/90 backdrop-blur-md">
         <div className="flex items-center gap-3">
-          <div className="text-carney text-xl md:text-2xl font-oswald tracking-wider animate-slide-in-left">MARK CARNEY</div>
+          <button 
+            onClick={() => onPoliticianChange?.('carney')}
+            className={`text-xl md:text-2xl font-oswald tracking-wider transition-colors duration-200
+                       ${activePolitician === 'carney' ? 'text-carney' : 'text-carney/50 hover:text-carney/80'}
+                       lg:text-carney lg:hover:text-carney/80`}
+          >
+            MARK CARNEY
+          </button>
           <div className="h-8 w-0.5 bg-white/50 mx-2 rotate-12"></div>
-          <div className="text-poilievre text-xl md:text-2xl font-oswald tracking-wider animate-slide-in-right">PIERRE POILIEVRE</div>
+          <button 
+            onClick={() => onPoliticianChange?.('poilievre')}
+            className={`text-xl md:text-2xl font-oswald tracking-wider transition-colors duration-200
+                       ${activePolitician === 'poilievre' ? 'text-poilievre' : 'text-poilievre/50 hover:text-poilievre/80'}
+                       lg:text-poilievre lg:hover:text-poilievre/80`}
+          >
+            PIERRE POILIEVRE
+          </button>
         </div>
         <div className="text-white/70 text-sm mt-4 font-montserrat text-center max-w-xl animate-fade-in" style={{ animationDelay: '0.5s' }}>
           Track and compare political promises made during the 2025 Canadian election cycle
