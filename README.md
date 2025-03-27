@@ -37,4 +37,4 @@ npm run preview
 
 This project is automatically deployed to GitHub Pages when changes are pushed to the main branch.
 
-Visit the live site at: https://jevon.github.io/promise-duel/
+Visit the live site at: https://jevon.github.io/
