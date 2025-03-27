@@ -4,6 +4,8 @@
 
 A web application that compares and tracks political promises between Canadian political leaders.
 
+*Last updated: March 27, 2024*
+
 ## Features
 
 - Compare promises between different political leaders
