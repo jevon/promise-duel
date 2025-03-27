@@ -45,10 +45,9 @@ const Index = () => {
     setMounted(true);
     
     const blueTexture = new Image();
-    blueTexture.src = '/lovable-uploads/9aa9fc43-b641-4246-aad6-67b96f85f7be.png';
-    
     const redTexture = new Image();
-    redTexture.src = '/lovable-uploads/cd58fd17-b6c9-4b34-82d1-393cf1195580.png';
+    blueTexture.src = '/uploads/bg-blue-texture.png';
+    redTexture.src = '/uploads/bg-red-texture.png';
   }, []);
 
   if (!mounted) {
@@ -71,7 +70,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center z-10">
           <div className="max-w-2xl mx-auto animate-fade-in">
             <img 
-              src="/lovable-uploads/72012ba1-4651-442e-bb0e-7fc123fd6e47.png" 
+              src="/uploads/promise-duel-header.png" 
               alt="Promise Duel - Carney vs Poilievre" 
               className="w-full h-auto shadow-lg"
             />
@@ -122,14 +121,14 @@ const Index = () => {
           <PoliticianColumn 
             promises={filteredCarneyPromises} 
             politician="carney"
-            backgroundImage=""
+            backgroundImage="/uploads/bg-red-texture.png"
             category={selectedCategory}
           />
           
           <PoliticianColumn 
             promises={filteredPoilievrePromises} 
             politician="poilievre"
-            backgroundImage=""
+            backgroundImage="/uploads/bg-blue-texture.png"
             category={selectedCategory}
           />
         </div>
@@ -149,7 +148,7 @@ const Index = () => {
               className="transition-opacity hover:opacity-90"
             >
               <img 
-                src="/lovable-uploads/2c52fb9e-a1db-4040-9c1b-42cdf9da5071.png" 
+                src="/uploads/build-canada-logo.png" 
                 alt="Build Canada" 
                 className="h-16 md:h-20 shadow-md transition-transform duration-300 hover:scale-105"
               />
