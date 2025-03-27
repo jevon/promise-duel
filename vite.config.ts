@@ -18,6 +18,15 @@ export default defineConfig({
       input: path.resolve(__dirname, 'index.html'),
       output: {
         manualChunks: undefined,
+        assetFileNames: (assetInfo) => {
+          if (!assetInfo.name) return 'assets/[name]-[hash][extname]';
+          const info = assetInfo.name.split('.');
+          const ext = info[info.length - 1];
+          if (/\.(js|mjs|jsx|ts|tsx)$/.test(assetInfo.name)) {
+            return `assets/js/[name]-[hash][extname]`;
+          }
+          return `assets/[name]-[hash][extname]`;
+        },
       },
     },
   },
