@@ -10,12 +10,17 @@ export default defineConfig(({ mode, command }) => ({
     port: 8080,
   },
   build: {
-    // For local viewing, inline all assets into a single file
-    cssCodeSplit: false,
+    outDir: 'dist',
+    assetsDir: 'assets',
+    emptyOutDir: true,
     rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+      },
       output: {
-        manualChunks: undefined,
-        inlineDynamicImports: true,
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
+        assetFileNames: 'assets/[name].[hash].[ext]'
       }
     }
   },
