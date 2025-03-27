@@ -22,15 +22,15 @@ export default defineConfig(({ mode }) => ({
         main: path.resolve(__dirname, 'index.html'),
       },
       output: {
-        entryFileNames: 'assets/[name].[hash].js',
-        chunkFileNames: 'assets/[name].[hash].js',
+        entryFileNames: mode === 'production' ? 'assets/[name].[hash].mjs' : 'assets/[name].[hash].js',
+        chunkFileNames: mode === 'production' ? 'assets/[name].[hash].mjs' : 'assets/[name].[hash].js',
         assetFileNames: (assetInfo) => {
           if (!assetInfo.name) return 'assets/[name].[hash].[ext]';
           if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(assetInfo.name)) {
             return 'uploads/[name].[ext]';
           }
           if (/\.js$/.test(assetInfo.name)) {
-            return 'assets/[name].[hash].js';
+            return mode === 'production' ? 'assets/[name].[hash].mjs' : 'assets/[name].[hash].js';
           }
           return 'assets/[name].[hash].[ext]';
         }
