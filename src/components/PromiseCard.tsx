@@ -1,7 +1,7 @@
-
 import React from 'react';
 import VideoLink from './VideoLink';
 import TranscriptLink from './TranscriptLink';
+import VideoOverlay from './VideoOverlay';
 
 export interface PromiseData {
   id: string;
@@ -13,6 +13,8 @@ export interface PromiseData {
   transcript_title?: string;
   transcript_date?: string;
   transcript_url: string;
+  timestamp?: string;
+  timestamp_url?: string;
   videoUrl?: string;
 }
 
@@ -57,16 +59,29 @@ const PromiseCard: React.FC<PromiseCardProps> = ({ promise, politician }) => {
       )}
       
       <div className="flex flex-col sm:flex-row gap-4 text-sm mt-4">
-        {promise.transcript_url && (
-          <TranscriptLink url={promise.transcript_url} politician={politician} />
-        )}
-        {promise.videoUrl && promise.transcript_id && (
-          <VideoLink 
-            url={promise.videoUrl || `https://www.youtube.com/watch?v=${promise.transcript_id}`} 
-            timestamp={null} 
-            politician={politician} 
-          />
-        )}
+        <div className="flex items-center gap-2 flex-wrap">
+          <a 
+            href={promise.transcript_url} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={`text-sm ${politician === 'carney' ? 'text-carney hover:text-carney/80' : 'text-poilievre hover:text-poilievre/80'} transition-colors`}
+          >
+            {promise.transcript_title}
+          </a>
+          {promise.timestamp && promise.timestamp_url && (
+            <>
+              <span className="text-white/40">•</span>
+              <a 
+                href={promise.timestamp_url}
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white/60 hover:text-white/80 transition-colors"
+              >
+                {promise.timestamp}
+              </a>
+            </>
+          )}
+        </div>
       </div>
     </div>
   );
