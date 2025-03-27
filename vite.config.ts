@@ -8,6 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    headers: {
+      'Content-Type': 'application/javascript',
+      'X-Content-Type-Options': 'nosniff'
+    }
   },
   build: {
     outDir: 'dist',
