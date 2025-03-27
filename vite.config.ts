@@ -25,6 +25,9 @@ export default defineConfig(({ mode }) => ({
           if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(assetInfo.name)) {
             return 'uploads/[name].[ext]';
           }
+          if (/\.js$/.test(assetInfo.name)) {
+            return 'assets/[name].[hash].js';
+          }
           return 'assets/[name].[hash].[ext]';
         }
       }
