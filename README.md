@@ -1,5 +1,7 @@
 # Promise Duel
 
+![Promise Duel - Carney vs Poilievre](https://github.com/jevon/promise-duel/blob/main/public/uploads/promise-duel-header.png?raw=true "Promise Duel Header")
+
 A web application that compares and tracks political promises between Canadian political leaders.
 
 ## Features
