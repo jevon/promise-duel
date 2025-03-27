@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode, command }) => ({
-  base: mode === 'production' ? "/promise-duel/" : "/",
+export default defineConfig({
+  base: "/promise-duel/",
   server: {
     host: "::",
     port: 8080,
@@ -32,4 +32,4 @@ export default defineConfig(({ mode, command }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+});
