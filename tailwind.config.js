@@ -12,8 +12,8 @@ export default {
         oswald: ['Oswald', 'sans-serif'],
       },
       colors: {
-        carney: '#0066CC',
-        poilievre: '#CC0000',
+        carney: '#CC0000',
+        poilievre: '#0066CC',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
