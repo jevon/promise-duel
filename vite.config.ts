@@ -23,7 +23,7 @@ export default defineConfig(({ mode }) => ({
         assetFileNames: (assetInfo) => {
           if (!assetInfo.name) return 'assets/[name].[hash].[ext]';
           if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(assetInfo.name)) {
-            return 'assets/[name].[hash].[ext]';
+            return 'uploads/[name].[ext]';
           }
           return 'assets/[name].[hash].[ext]';
         }
