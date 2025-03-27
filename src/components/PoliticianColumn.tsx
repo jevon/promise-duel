@@ -8,6 +8,7 @@ interface PoliticianColumnProps {
   category?: string | null;
 }
 
+// Component to display a column of promises for each politician
 const PoliticianColumn: React.FC<PoliticianColumnProps> = ({ 
   promises, 
   politician,
