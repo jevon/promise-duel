@@ -20,7 +20,13 @@ export default defineConfig(({ mode }) => ({
       output: {
         entryFileNames: 'assets/[name].[hash].js',
         chunkFileNames: 'assets/[name].[hash].js',
-        assetFileNames: 'assets/[name].[hash].[ext]'
+        assetFileNames: (assetInfo) => {
+          if (!assetInfo.name) return 'assets/[name].[hash].[ext]';
+          if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(assetInfo.name)) {
+            return 'uploads/[name].[hash].[ext]';
+          }
+          return 'assets/[name].[hash].[ext]';
+        }
       }
     }
   },
