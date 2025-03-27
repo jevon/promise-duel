@@ -72,11 +72,18 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black"></div>
         
         <div className="container mx-auto px-4 text-center z-10 py-12">
-          <div className="max-w-2xl mx-auto animate-fade-in">
+          <div className="max-w-2xl mx-auto animate-fade-in relative">
             <img 
-              src={`${import.meta.env.BASE_URL}uploads/promise-duel-header.png`} 
-              alt="Promise Duel - Carney vs Poilievre" 
-              className="w-full h-auto shadow-lg"
+              src="/promise-duel/uploads/promise-duel-header.png"
+              alt="Promise Duel Header"
+              className="w-full h-auto mb-8 transition-opacity duration-300 hover:opacity-0"
+              style={{ animationDelay: '0.4s' }}
+            />
+            <img 
+              src="/promise-duel/uploads/promise-duel-header-smile.png"
+              alt="Promise Duel Header Smile"
+              className="w-full h-auto mb-8 absolute top-0 left-0 opacity-0 transition-opacity duration-300 hover:opacity-100"
+              style={{ animationDelay: '0.4s' }}
             />
           </div>
           
