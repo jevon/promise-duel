@@ -49,8 +49,8 @@ const Index = () => {
 
     // Use the correct base path for both development and production
     const basePath = import.meta.env.BASE_URL;
-    blueTexture.src = `${basePath}uploads/bg-blue-texture.png`;
-    redTexture.src = `${basePath}uploads/bg-red-texture.png`;
+    blueTexture.src = `${basePath}assets/bg-blue-texture.png`;
+    redTexture.src = `${basePath}assets/bg-red-texture.png`;
   }, []);
 
   if (!mounted) {
@@ -73,7 +73,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center z-10">
           <div className="max-w-2xl mx-auto animate-fade-in">
             <img 
-              src={`${import.meta.env.BASE_URL}uploads/promise-duel-header.png`} 
+              src={`${import.meta.env.BASE_URL}assets/promise-duel-header.png`} 
               alt="Promise Duel - Carney vs Poilievre" 
               className="w-full h-auto shadow-lg"
             />
@@ -124,14 +124,14 @@ const Index = () => {
           <PoliticianColumn 
             promises={filteredCarneyPromises} 
             politician="carney"
-            backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-red-texture.png`}
+            backgroundImage={`${import.meta.env.BASE_URL}assets/bg-red-texture.png`}
             category={selectedCategory}
           />
           
           <PoliticianColumn 
             promises={filteredPoilievrePromises} 
             politician="poilievre"
-            backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-blue-texture.png`}
+            backgroundImage={`${import.meta.env.BASE_URL}assets/bg-blue-texture.png`}
             category={selectedCategory}
           />
         </div>
@@ -151,7 +151,7 @@ const Index = () => {
               className="transition-opacity hover:opacity-90"
             >
               <img 
-                src={`${import.meta.env.BASE_URL}uploads/build-canada-logo.png`} 
+                src={`${import.meta.env.BASE_URL}assets/build-canada-logo.png`} 
                 alt="Build Canada" 
                 className="h-16 md:h-20 shadow-md transition-transform duration-300 hover:scale-105"
               />

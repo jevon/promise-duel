@@ -23,7 +23,7 @@ export default defineConfig(({ mode }) => ({
         assetFileNames: (assetInfo) => {
           if (!assetInfo.name) return 'assets/[name].[hash].[ext]';
           if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(assetInfo.name)) {
-            return 'uploads/[name].[hash].[ext]';
+            return 'assets/[name].[hash].[ext]';
           }
           return 'assets/[name].[hash].[ext]';
         }
@@ -38,4 +38,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  publicDir: 'public',
 }));
