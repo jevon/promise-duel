@@ -59,8 +59,9 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-black text-white pb-20">
+      <Header />
       <div 
-        className="h-[50vh] md:h-[60vh] flex items-center justify-center relative overflow-hidden"
+        className="h-[50vh] md:h-[60vh] flex items-center justify-center relative overflow-hidden hero-section"
         style={{
           backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1605810230434-7631ac76ec81)',
           backgroundSize: 'cover',
@@ -70,7 +71,7 @@ const Index = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black"></div>
         
-        <div className="container mx-auto px-4 text-center z-10">
+        <div className="container mx-auto px-4 text-center z-10 py-8">
           <div className="max-w-2xl mx-auto animate-fade-in">
             <img 
               src={`${import.meta.env.BASE_URL}uploads/promise-duel-header.png`} 
@@ -89,15 +90,13 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="text-white/80 max-w-2xl mx-auto mt-8 font-montserrat animate-fade-in px-4" style={{ animationDelay: '0.6s' }}>
+          <div className="text-white/80 max-w-2xl mx-auto mt-8 font-montserrat animate-fade-in px-4 pb-4" style={{ animationDelay: '0.6s' }}>
             Track and compare the political promises made during the 2025 Canadian election cycle. 
             Click on video links to see the exact moment each promise was made.
           </div>
         </div>
       </div>
 
-      <Header />
-      
       <div className="container mx-auto px-4 mt-24">
         <div className="mb-12 text-center">
           <div className="inline-block px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-white/90 text-sm font-medium mb-4 animate-fade-in">

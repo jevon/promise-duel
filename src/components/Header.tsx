@@ -1,25 +1,22 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 const Header: React.FC = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   const headerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    let lastScrollY = window.scrollY;
-
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
+      const heroSection = document.querySelector('.hero-section');
+      if (!heroSection) return;
       
-      if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        setIsVisible(false);
-      } else {
-        setIsVisible(true);
-      }
-      
-      lastScrollY = currentScrollY;
+      const heroBottom = heroSection.getBoundingClientRect().bottom;
+      setIsVisible(heroBottom < 0);
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
+    // Initial check
+    handleScroll();
+    
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
