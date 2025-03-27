@@ -14,6 +14,12 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    rollupOptions: {
+      input: path.resolve(__dirname, 'index.html'),
+      output: {
+        manualChunks: undefined,
+      },
+    },
   },
   server: {
     port: 8080,
