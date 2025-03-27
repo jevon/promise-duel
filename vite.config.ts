@@ -18,19 +18,25 @@ export default defineConfig({
       input: path.resolve(__dirname, 'index.html'),
       output: {
         manualChunks: undefined,
-        assetFileNames: (assetInfo) => {
-          if (!assetInfo.name) return 'assets/[name]-[hash][extname]';
-          const info = assetInfo.name.split('.');
-          const ext = info[info.length - 1];
-          if (/\.(js|mjs|jsx|ts|tsx)$/.test(assetInfo.name)) {
-            return `assets/js/[name]-[hash][extname]`;
-          }
-          return `assets/[name]-[hash][extname]`;
-        },
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
+        assetFileNames: 'assets/[name].[hash].[ext]'
       },
     },
+    sourcemap: true,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true
+      }
+    }
   },
   server: {
     port: 8080,
   },
+  preview: {
+    port: 8080,
+    strictPort: true,
+  }
 });
