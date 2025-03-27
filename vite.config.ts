@@ -1,13 +1,19 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import path from "path";
+import { fileURLToPath } from 'url';
+import { dirname, resolve } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? "/promise-duel/" : "/",
-  server: {
-    host: "::",
-    port: 8080,
+export default defineConfig({
+  plugins: [react()],
+  base: '/promise-duel/',
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "./src"),
+    },
   },
   build: {
     outDir: 'dist',
@@ -15,7 +21,7 @@ export default defineConfig(({ mode }) => ({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'index.html'),
+        main: resolve(__dirname, 'index.html'),
       },
       output: {
         entryFileNames: 'assets/[name].[hash].js',
@@ -23,7 +29,7 @@ export default defineConfig(({ mode }) => ({
         assetFileNames: (assetInfo) => {
           if (!assetInfo.name) return 'assets/[name].[hash].[ext]';
           if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(assetInfo.name)) {
-            return 'uploads/[name].[ext]';
+            return 'assets/images/[name].[hash].[ext]';
           }
           if (/\.js$/.test(assetInfo.name)) {
             return 'assets/[name].[hash].js';
@@ -33,13 +39,13 @@ export default defineConfig(({ mode }) => ({
       }
     }
   },
-  plugins: [
-    react(),
-  ],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
+  server: {
+    host: "::",
+    port: 8080,
+    headers: {
+      'Content-Type': 'application/javascript',
+      'X-Content-Type-Options': 'nosniff',
     },
   },
   publicDir: 'public',
-}));
+});
