@@ -38,18 +38,24 @@ const Header: React.FC<HeaderProps> = ({ activePolitician, onPoliticianChange })
             onClick={() => onPoliticianChange?.('carney')}
             className={`text-xl md:text-2xl font-oswald tracking-wider transition-colors duration-200
                        ${activePolitician === 'carney' ? 'text-carney' : 'text-carney/50 hover:text-carney/80'}
-                       lg:text-carney lg:hover:text-carney/80`}
+                       lg:text-carney lg:hover:text-carney/80 relative`}
           >
             MARK CARNEY
+            {activePolitician === 'carney' && (
+              <span className="absolute -bottom-2.5 left-1/2 transform -translate-x-1/2 text-carney text-xs lg:hidden">▼</span>
+            )}
           </button>
           <div className="h-8 w-0.5 bg-white/50 mx-2 rotate-12"></div>
           <button 
             onClick={() => onPoliticianChange?.('poilievre')}
             className={`text-xl md:text-2xl font-oswald tracking-wider transition-colors duration-200
                        ${activePolitician === 'poilievre' ? 'text-poilievre' : 'text-poilievre/50 hover:text-poilievre/80'}
-                       lg:text-poilievre lg:hover:text-poilievre/80`}
+                       lg:text-poilievre lg:hover:text-poilievre/80 relative`}
           >
             PIERRE POILIEVRE
+            {activePolitician === 'poilievre' && (
+              <span className="absolute -bottom-2.5 left-1/2 transform -translate-x-1/2 text-poilievre text-xs lg:hidden">▼</span>
+            )}
           </button>
         </div>
         <div className="text-white/70 text-sm mt-4 font-montserrat text-center max-w-xl animate-fade-in" style={{ animationDelay: '0.5s' }}>
