@@ -1,8 +1,4 @@
-
 import React from 'react';
-import { Search } from 'lucide-react';
-import { Input } from './ui/input';
-import { Toggle } from './ui/toggle';
 
 interface PromiseSearchProps {
   searchTerm: string;
@@ -20,47 +16,30 @@ const PromiseSearch: React.FC<PromiseSearchProps> = ({
   categories,
 }) => {
   return (
-    <div className="mb-8 animate-fade-in">
-      <div className="relative mb-4">
-        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white/50" size={18} />
-        <Input
+    <div className="flex flex-col gap-4">
+      <div className="relative">
+        <input
           type="text"
-          placeholder="Search promises..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="pl-10 bg-white/10 border-white/20 text-white placeholder:text-white/50"
+          placeholder="Search promises..."
+          className="w-full px-4 py-2 border rounded-md"
         />
       </div>
-      
-      <div className="flex flex-wrap gap-2 mb-4">
+      <div className="flex flex-wrap gap-2">
         {categories.map((category) => (
-          <Toggle
+          <button
             key={category}
-            pressed={selectedCategory === category}
-            onPressedChange={() => 
-              selectedCategory === category 
-                ? setSelectedCategory(null) 
-                : setSelectedCategory(category)
-            }
-            variant="outline"
-            size="sm"
-            className={`text-sm ${
-              selectedCategory === category 
-                ? 'bg-white/20 text-white' 
-                : 'bg-black/40 text-white/70 hover:bg-white/20 hover:text-white transition-colors duration-200'
+            onClick={() => setSelectedCategory(selectedCategory === category ? null : category)}
+            className={`px-3 py-1 rounded-full text-sm ${
+              selectedCategory === category
+                ? 'bg-blue-500 text-white'
+                : 'bg-gray-200 text-gray-700'
             }`}
           >
             {category}
-          </Toggle>
-        ))}
-        {selectedCategory && (
-          <button 
-            onClick={() => setSelectedCategory(null)}
-            className="text-xs text-white/60 underline ml-2 hover:text-white transition-colors"
-          >
-            Clear filter
           </button>
-        )}
+        ))}
       </div>
     </div>
   );
