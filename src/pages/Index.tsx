@@ -5,6 +5,8 @@ import PromiseSearch from '@/components/PromiseSearch';
 import { PromiseData } from '@/components/PromiseCard';
 import carneyPromisesData from '@/data/carneyPromises.json';
 import poilievrePromisesData from '@/data/poilievrePromises.json';
+import { useSwipe } from '@/hooks/useSwipe';
+import SwipeIndicator from '@/components/SwipeIndicator';
 
 const Index = () => {
   const [mounted, setMounted] = useState(false);
@@ -42,6 +44,24 @@ const Index = () => {
   const filteredCarneyPromises = filterPromises(carneyPromises);
   const filteredPoilievrePromises = filterPromises(poilievrePromises);
 
+  // Handle politician switching with swipes
+  const handleSwipeLeft = () => {
+    // Swipe left means switch to Poilievre
+    setActivePolitician('poilievre');
+  };
+  
+  const handleSwipeRight = () => {
+    // Swipe right means switch to Carney
+    setActivePolitician('carney');
+  };
+  
+  // Initialize swipe detection
+  const { isSwiping, swipeDirection } = useSwipe({
+    onSwipeLeft: handleSwipeLeft,
+    onSwipeRight: handleSwipeRight,
+    minSwipeDistance: 50,
+  });
+
   useEffect(() => {
     setMounted(true);
     
@@ -59,8 +79,13 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white pb-20">
+    <div className="min-h-screen bg-black text-white pb-20" id="swipe-area">
       <Header activePolitician={activePolitician} onPoliticianChange={setActivePolitician} />
+      <SwipeIndicator 
+        activePolitician={activePolitician}
+        isSwiping={isSwiping}
+        swipeDirection={swipeDirection}
+      />
       <div 
         className="min-h-[50vh] md:min-h-[60vh] flex items-center justify-center relative overflow-hidden hero-section"
         style={{
