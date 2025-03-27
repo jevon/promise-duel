@@ -30,8 +30,8 @@ const PoliticianColumn: React.FC<PoliticianColumnProps> = ({
          }}>
       {/* Semi-transparent overlay */}
       <div className="absolute inset-0 bg-black/70"></div>
-      <div className="pt-10 md:pt-12 relative z-10">
-        <div className="space-y-4 pt-2 relative z-10">
+      <div className="pt-4 md:pt-6 relative z-10">
+        <div className="space-y-4 relative z-10">
           {filteredPromises.length > 0 ? (
             filteredPromises.map((promise, index) => (
               <div key={promise.id} style={{ animationDelay: `${0.1 * (index + 1)}s` }} className="animate-scale-in">
