@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 interface SwipeProps {
   onSwipeLeft?: () => void;
@@ -25,93 +25,87 @@ export const useSwipe = ({
     touchEnd: null
   });
   
-  // Reset if the touch is canceled
-  const handleTouchCancel = () => {
+  // Memoize the handlers to prevent unnecessary re-renders
+  const handleTouchStart = useCallback((e: TouchEvent) => {
+    setSwipeState(prev => ({
+      ...prev,
+      touchEnd: null,
+      touchStart: e.targetTouches[0].clientX,
+      isSwiping: true
+    }));
+  }, []);
+
+  const handleTouchMove = useCallback((e: TouchEvent) => {
+    setSwipeState(prev => {
+      if (!prev.touchStart) return prev;
+      
+      const currentX = e.targetTouches[0].clientX;
+      const diff = prev.touchStart - currentX;
+      
+      return {
+        ...prev,
+        touchEnd: currentX,
+        direction: diff > 0 ? 'left' : 'right',
+        isSwiping: true
+      };
+    });
+  }, []);
+
+  const handleTouchEnd = useCallback(() => {
+    setSwipeState(prev => {
+      if (!prev.touchStart || !prev.touchEnd) {
+        return { ...prev, isSwiping: false };
+      }
+      
+      const distance = prev.touchStart - prev.touchEnd;
+      const isLeftSwipe = distance > minSwipeDistance;
+      const isRightSwipe = distance < -minSwipeDistance;
+
+      if (isLeftSwipe && onSwipeLeft) {
+        onSwipeLeft();
+      }
+      
+      if (isRightSwipe && onSwipeRight) {
+        onSwipeRight();
+      }
+      
+      return { ...prev, isSwiping: false };
+    });
+    
+    // Clear direction after animation time
+    setTimeout(() => {
+      setSwipeState(prev => ({
+        ...prev,
+        direction: null,
+        touchStart: null,
+        touchEnd: null
+      }));
+    }, 300);
+  }, [minSwipeDistance, onSwipeLeft, onSwipeRight]);
+  
+  const handleTouchCancel = useCallback(() => {
     setSwipeState({
       isSwiping: false,
       direction: null,
       touchStart: null,
       touchEnd: null
     });
-  };
-
-  const handleTouchStart = (e: TouchEvent) => {
-    setSwipeState({
-      ...swipeState,
-      touchEnd: null,
-      touchStart: e.targetTouches[0].clientX,
-      isSwiping: true
-    });
-  };
-
-  const handleTouchMove = (e: TouchEvent) => {
-    if (!swipeState.touchStart) return;
-    
-    const currentX = e.targetTouches[0].clientX;
-    const diff = swipeState.touchStart - currentX;
-    
-    setSwipeState({
-      ...swipeState,
-      touchEnd: currentX,
-      direction: diff > 0 ? 'left' : 'right',
-      isSwiping: true
-    });
-  };
-
-  const handleTouchEnd = () => {
-    if (!swipeState.touchStart || !swipeState.touchEnd) {
-      setSwipeState({
-        ...swipeState,
-        isSwiping: false
-      });
-      return;
-    }
-    
-    const distance = swipeState.touchStart - swipeState.touchEnd;
-    const isLeftSwipe = distance > minSwipeDistance;
-    const isRightSwipe = distance < -minSwipeDistance;
-
-    if (isLeftSwipe && onSwipeLeft) {
-      onSwipeLeft();
-    }
-    
-    if (isRightSwipe && onSwipeRight) {
-      onSwipeRight();
-    }
-    
-    // Reset values but keep direction briefly for animation
-    setSwipeState({
-      ...swipeState,
-      isSwiping: false
-    });
-    
-    // Clear direction after animation time
-    setTimeout(() => {
-      setSwipeState(prevState => ({
-        ...prevState,
-        direction: null,
-        touchStart: null,
-        touchEnd: null
-      }));
-    }, 300);
-  };
+  }, []);
 
   useEffect(() => {
-    const element = document.getElementById('swipe-area');
-    if (!element) return;
-
-    element.addEventListener('touchstart', handleTouchStart);
-    element.addEventListener('touchmove', handleTouchMove);
-    element.addEventListener('touchend', handleTouchEnd);
-    element.addEventListener('touchcancel', handleTouchCancel);
+    // Using document instead of a specific element for better coverage
+    document.addEventListener('touchstart', handleTouchStart, { passive: true });
+    document.addEventListener('touchmove', handleTouchMove, { passive: true });
+    document.addEventListener('touchend', handleTouchEnd);
+    document.addEventListener('touchcancel', handleTouchCancel);
 
     return () => {
-      element.removeEventListener('touchstart', handleTouchStart);
-      element.removeEventListener('touchmove', handleTouchMove);
-      element.removeEventListener('touchend', handleTouchEnd);
-      element.removeEventListener('touchcancel', handleTouchCancel);
+      document.removeEventListener('touchstart', handleTouchStart);
+      document.removeEventListener('touchmove', handleTouchMove);
+      document.removeEventListener('touchend', handleTouchEnd);
+      document.removeEventListener('touchcancel', handleTouchCancel);
     };
-  }, [swipeState.touchStart, swipeState.touchEnd]);
+  }, [handleTouchStart, handleTouchMove, handleTouchEnd, handleTouchCancel]);
   
   return {
     isSwiping: swipeState.isSwiping,

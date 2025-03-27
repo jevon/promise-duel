@@ -44,7 +44,7 @@ const Index = () => {
   const filteredCarneyPromises = filterPromises(carneyPromises);
   const filteredPoilievrePromises = filterPromises(poilievrePromises);
 
-  // Handle politician switching with swipes
+  // Handle politician switching with swipes in a memoized callback
   const handleSwipeLeft = () => {
     // Swipe left means switch to Poilievre
     setActivePolitician('poilievre');
@@ -79,7 +79,7 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white pb-20" id="swipe-area">
+    <div className="min-h-screen bg-black text-white pb-20">
       <Header activePolitician={activePolitician} onPoliticianChange={setActivePolitician} />
       <SwipeIndicator 
         activePolitician={activePolitician}
