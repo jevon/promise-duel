@@ -5,6 +5,8 @@ import PieChart from './PieChart';
 interface TopicComparisonProps {
   carneyPromises: PromiseData[];
   poilievrePromises: PromiseData[];
+  selectedCategory: string | null;
+  setSelectedCategory: (category: string | null) => void;
 }
 
 interface CategoryData {
@@ -16,7 +18,9 @@ interface CategoryData {
 
 const TopicComparison: React.FC<TopicComparisonProps> = ({ 
   carneyPromises, 
-  poilievrePromises 
+  poilievrePromises,
+  selectedCategory,
+  setSelectedCategory
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -121,7 +125,14 @@ const TopicComparison: React.FC<TopicComparisonProps> = ({
           
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
             {categoryData.map(data => (
-              <div key={data.category} className="flex flex-col items-center backdrop-blur-sm bg-black/20 rounded-lg p-3">
+              <button 
+                key={data.category} 
+                onClick={() => setSelectedCategory(selectedCategory === data.category ? null : data.category)}
+                className={`flex flex-col items-center backdrop-blur-sm rounded-lg p-3 transition-all
+                  ${selectedCategory === data.category 
+                    ? 'bg-white/20 border border-white/30' 
+                    : 'bg-black/20 border border-transparent hover:border-white/20'}`}
+              >
                 <div className="text-white font-medium text-sm mb-3 truncate max-w-full">{data.category}</div>
                 
                 <div className="relative">
@@ -142,7 +153,7 @@ const TopicComparison: React.FC<TopicComparisonProps> = ({
                     </span>
                   </div>
                 </div>
-              </div>
+              </button>
             ))}
           </div>
         </div>

@@ -152,6 +152,8 @@ const Index = () => {
         <TopicComparison 
           carneyPromises={carneyPromises}
           poilievrePromises={poilievrePromises}
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
         />
         
         <PromiseSearch 
