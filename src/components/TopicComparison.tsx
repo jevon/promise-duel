@@ -105,8 +105,8 @@ const TopicComparison: React.FC<TopicComparisonProps> = ({
         </button>
       </div>
       
-      <div className={`${isExpanded ? 'block' : 'hidden'} lg:block overflow-x-auto`}>
-        <div className="min-w-[800px] lg:min-w-0">
+      <div className={`${isExpanded ? 'block' : 'hidden'} lg:block`}>
+        <div className="lg:min-w-0">
           <div className="flex justify-center mb-4">
             <div className="flex items-center gap-6 px-4 py-2 bg-black/40 rounded-full">
               <div className="flex items-center gap-2">
@@ -117,13 +117,10 @@ const TopicComparison: React.FC<TopicComparisonProps> = ({
                 <div className="w-3 h-3 rounded-full bg-poilievre"></div>
                 <span className="text-white/80 text-xs">Poilievre</span>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="text-white/80 text-xs">Values show topic focus as % of each politician's total promises</span>
-              </div>
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {categoryData.map(data => (
               <button 
                 key={data.category} 
@@ -139,7 +136,7 @@ const TopicComparison: React.FC<TopicComparisonProps> = ({
                   <PieChart 
                     carneyPercentage={data.carneyPercentage}
                     poilievrePercentage={data.poilievrePercentage}
-                    size={90}
+                    size={70}
                     showLabel={false}
                   />
                   
