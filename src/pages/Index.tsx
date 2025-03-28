@@ -7,6 +7,7 @@ import carneyPromisesData from '@/data/carneyPromises.json';
 import poilievrePromisesData from '@/data/poilievrePromises.json';
 import { useSwipe } from '@/hooks/useSwipe';
 import SwipeIndicator from '@/components/SwipeIndicator';
+import TopicComparison from '@/components/TopicComparison';
 
 const Index = () => {
   const [mounted, setMounted] = useState(false);
@@ -14,13 +15,15 @@ const Index = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [activePolitician, setActivePolitician] = useState<'carney' | 'poilievre'>('carney');
   
-  const carneyPromises: PromiseData[] = carneyPromisesData.map(promise => ({
+  const carneyPromises: PromiseData[] = carneyPromisesData.map((promise, index) => ({
     ...promise,
+    id: promise.transcript_id ? `carney-${promise.transcript_id}-${index}` : `carney-${index}`,
     confidence_level: promise.confidence_level as 'High' | 'Medium' | 'Low'
   }));
   
-  const poilievrePromises: PromiseData[] = poilievrePromisesData.map(promise => ({
+  const poilievrePromises: PromiseData[] = poilievrePromisesData.map((promise, index) => ({
     ...promise,
+    id: promise.transcript_id ? `poilievre-${promise.transcript_id}-${index}` : `poilievre-${index}`,
     confidence_level: promise.confidence_level as 'High' | 'Medium' | 'Low'
   }));
   
@@ -145,6 +148,11 @@ const Index = () => {
             How does this work? →
           </a>
         </div>
+        
+        <TopicComparison 
+          carneyPromises={carneyPromises}
+          poilievrePromises={poilievrePromises}
+        />
         
         <PromiseSearch 
           searchTerm={searchTerm}
