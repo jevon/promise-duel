@@ -5,7 +5,7 @@ import NotFound from "./pages/NotFound";
 import HowItWorks from './pages/HowItWorks';
 
 const App: React.FC = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/how-it-works" element={<HowItWorks />} />

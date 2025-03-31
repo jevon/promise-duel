@@ -247,7 +247,8 @@ const Index = () => {
                   onPromiseClick={(promise) => {
                     setSelectedPromise({ promise, politician: 'carney' });
                     // Create shareable URL with the promise ID
-                    const shareUrl = `${window.location.origin}${window.location.pathname}?promise=${promise.id}`;
+                    const baseUrl = `${window.location.origin}${import.meta.env.BASE_URL}`;
+                    const shareUrl = `${baseUrl}?promise=${promise.id}`;
                     // For copy-to-clipboard functionality if needed later
                     sessionStorage.setItem('promiseShareUrl', shareUrl);
                   }}
@@ -272,7 +273,8 @@ const Index = () => {
                   onPromiseClick={(promise) => {
                     setSelectedPromise({ promise, politician: 'poilievre' });
                     // Create shareable URL with the promise ID
-                    const shareUrl = `${window.location.origin}${window.location.pathname}?promise=${promise.id}`;
+                    const baseUrl = `${window.location.origin}${import.meta.env.BASE_URL}`;
+                    const shareUrl = `${baseUrl}?promise=${promise.id}`;
                     // For copy-to-clipboard functionality if needed later
                     sessionStorage.setItem('promiseShareUrl', shareUrl);
                   }}
@@ -310,8 +312,11 @@ const Index = () => {
         isOpen={!!selectedPromise}
         onClose={() => {
           setSelectedPromise(null);
-          // Clear any stored promise ID
+          // Clear any stored promise ID and maintain the base path
           sessionStorage.removeItem('promiseShareUrl');
+          // Use the base path from environment
+          const basePath = import.meta.env.BASE_URL;
+          window.history.replaceState(null, null, basePath);
         }}
       >
         {selectedPromise && (

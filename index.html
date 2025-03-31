@@ -52,8 +52,16 @@
           console.log('URL Promise ID detected:', promiseId);
           sessionStorage.setItem('selectedPromiseId', promiseId);
           
-          // Clean up the URL
-          window.history.replaceState(null, null, window.location.pathname);
+          // Clean up the URL - preserve the base path
+          // Get the current pathname up to the last slash
+          const pathParts = window.location.pathname.split('/');
+          // Remove the last part (if it's empty)
+          if (pathParts[pathParts.length - 1] === '') {
+            pathParts.pop();
+          }
+          // Keep the pathname up to the last slash
+          const basePath = pathParts.join('/') + '/';
+          window.history.replaceState(null, null, basePath);
         }
       })();
     </script>
