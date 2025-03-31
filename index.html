@@ -39,6 +39,24 @@
       }(window.location))
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
+    
+    <!-- Handle Promise IDs from URL query parameters -->
+    <script type="text/javascript">
+      (function() {
+        // Check if we have a promise parameter in the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const promiseId = urlParams.get('promise');
+        
+        if (promiseId) {
+          // Save the promise ID to sessionStorage for the React app to find
+          console.log('URL Promise ID detected:', promiseId);
+          sessionStorage.setItem('selectedPromiseId', promiseId);
+          
+          // Clean up the URL
+          window.history.replaceState(null, null, window.location.pathname);
+        }
+      })();
+    </script>
   </head>
 
   <body>

@@ -1,31 +1,46 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Header from '@/components/Header';
 import PoliticianColumn from '@/components/PoliticianColumn';
 import PromiseSearch from '@/components/PromiseSearch';
-import { PromiseData } from '@/components/PromiseCard';
+import PromiseCard, { PromiseData } from '@/components/PromiseCard';
 import carneyPromisesData from '@/data/carneyPromises.json';
 import poilievrePromisesData from '@/data/poilievrePromises.json';
 import { useSwipe } from '@/hooks/useSwipe';
 import SwipeIndicator from '@/components/SwipeIndicator';
 import TopicComparison from '@/components/TopicComparison';
+import Modal from '@/components/Modal';
 
 const Index = () => {
   const [mounted, setMounted] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [activePolitician, setActivePolitician] = useState<'carney' | 'poilievre'>('carney');
+  const [selectedPromise, setSelectedPromise] = useState<{ promise: PromiseData; politician: 'carney' | 'poilievre' } | null>(null);
   
-  const carneyPromises: PromiseData[] = carneyPromisesData.map((promise, index) => ({
+  // Memoize promise data processing
+  const carneyPromises: PromiseData[] = useMemo(() => carneyPromisesData.map((promise) => ({
     ...promise,
-    id: promise.transcript_id ? `carney-${promise.transcript_id}-${index}` : `carney-${index}`,
-    confidence_level: promise.confidence_level as 'High' | 'Medium' | 'Low'
-  }));
+    id: promise.id || `carney-${promise.transcript_id || Date.now()}`,
+    confidence_level: (promise.confidence_level || 'Medium') as 'High' | 'Medium' | 'Low',
+    category: promise.category || 'Uncategorized',
+    description: promise.description || '',
+    quote: promise.quote || '',
+    transcript_date: promise.transcript_date || 'Unknown Date',
+    transcript_title: promise.transcript_title || 'Unknown Title',
+    transcript_url: promise.transcript_url || `https://www.youtube.com/watch?v=${promise.transcript_id || ''}`
+  })), []); // Dependency array is empty as source data doesn't change
   
-  const poilievrePromises: PromiseData[] = poilievrePromisesData.map((promise, index) => ({
+  const poilievrePromises: PromiseData[] = useMemo(() => poilievrePromisesData.map((promise) => ({
     ...promise,
-    id: promise.transcript_id ? `poilievre-${promise.transcript_id}-${index}` : `poilievre-${index}`,
-    confidence_level: promise.confidence_level as 'High' | 'Medium' | 'Low'
-  }));
+    id: promise.id || `poilievre-${promise.transcript_id || Date.now()}`,
+    confidence_level: (promise.confidence_level || 'Medium') as 'High' | 'Medium' | 'Low',
+    category: promise.category || 'Uncategorized',
+    description: promise.description || '',
+    quote: promise.quote || '',
+    transcript_date: promise.transcript_date || 'Unknown Date',
+    transcript_title: promise.transcript_title || 'Unknown Title',
+    transcript_url: promise.transcript_url || `https://www.youtube.com/watch?v=${promise.transcript_id || ''}`
+  })), []); // Dependency array is empty as source data doesn't change
   
   const allCategories = Array.from(new Set([
     ...carneyPromises.map(promise => promise.category),
@@ -47,6 +62,31 @@ const Index = () => {
   const filteredCarneyPromises = filterPromises(carneyPromises);
   const filteredPoilievrePromises = filterPromises(poilievrePromises);
 
+  // Group promises by date
+  const groupPromisesByDate = (promises: PromiseData[]): Record<string, PromiseData[]> => {
+    return promises.reduce((acc, promise) => {
+      const date = promise.transcript_date || 'Unknown Date';
+      if (!acc[date]) {
+        acc[date] = [];
+      }
+      acc[date].push(promise);
+      return acc;
+    }, {} as Record<string, PromiseData[]>);
+  };
+
+  const carneyGroupedPromises = groupPromisesByDate(filteredCarneyPromises);
+  const poilievreGroupedPromises = groupPromisesByDate(filteredPoilievrePromises);
+
+  // Get all unique dates
+  const allDates = Array.from(new Set([
+    ...Object.keys(carneyGroupedPromises),
+    ...Object.keys(poilievreGroupedPromises)
+  ])).sort((a, b) => {
+    if (a === 'Unknown Date') return 1;
+    if (b === 'Unknown Date') return -1;
+    return new Date(b).getTime() - new Date(a).getTime();
+  });
+
   // Handle politician switching with swipes in a memoized callback
   const handleSwipeLeft = () => {
     // Swipe left means switch to Poilievre
@@ -65,17 +105,43 @@ const Index = () => {
     minSwipeDistance: 50,
   });
 
+  // Handle initial mount effect - now checks for URL directly via sessionStorage
   useEffect(() => {
+    console.log("Initial Mount Effect: Running");
     setMounted(true);
-    
+
+    // Try to get promise ID from sessionStorage (set by direct URL if available)
+    const promiseId = sessionStorage.getItem('selectedPromiseId');
+    console.log(`Initial Mount Effect: checking for promise ID in sessionStorage: ${promiseId}`);
+
+    if (promiseId) {
+      // Find the promise in either politician's promises
+      const carneyPromise = carneyPromises.find(p => p.id === promiseId);
+      const poilievrePromise = poilievrePromises.find(p => p.id === promiseId);
+
+      if (carneyPromise) {
+        console.log("Initial Mount Effect: Found Carney promise, setting state.");
+        setSelectedPromise({ promise: carneyPromise, politician: 'carney' });
+      } else if (poilievrePromise) {
+        console.log("Initial Mount Effect: Found Poilievre promise, setting state.");
+        setSelectedPromise({ promise: poilievrePromise, politician: 'poilievre' });
+      } else {
+        console.log("Initial Mount Effect: Invalid promise ID in storage.");
+      }
+      
+      // Clear the storage after processing
+      sessionStorage.removeItem('selectedPromiseId');
+    }
+
+    // Preload textures
+    console.log("Initial Mount Effect: Preloading textures.");
     const blueTexture = new Image();
     const redTexture = new Image();
-
-    // Use the correct base path for both development and production
     const basePath = import.meta.env.BASE_URL;
     blueTexture.src = `${basePath}uploads/bg-blue-texture.png`;
     redTexture.src = `${basePath}uploads/bg-red-texture.png`;
-  }, []);
+
+  }, [carneyPromises, poilievrePromises]); // Depends on promise data to find promise
 
   if (!mounted) {
     return <div className="min-h-screen bg-black"></div>;
@@ -166,21 +232,53 @@ const Index = () => {
         
         <div className="flex flex-col lg:flex-row gap-8">
           <div className={`w-full lg:w-1/2 transition-all duration-300 ${activePolitician === 'carney' ? 'block' : 'hidden lg:block'}`}>
-            <PoliticianColumn 
-              promises={filteredCarneyPromises} 
-              politician="carney"
-              backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-red-texture.png`}
-              category={selectedCategory}
-            />
+            {Object.keys(carneyGroupedPromises).sort((a, b) => {
+              if (a === 'Unknown Date') return 1;
+              if (b === 'Unknown Date') return -1;
+              return new Date(b).getTime() - new Date(a).getTime();
+            }).map(date => (
+              <div key={date} className="mb-4 last:mb-0">
+                <PoliticianColumn 
+                  promises={carneyGroupedPromises[date]}
+                  politician="carney"
+                  backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-red-texture.png`}
+                  category={selectedCategory}
+                  date={date}
+                  onPromiseClick={(promise) => {
+                    setSelectedPromise({ promise, politician: 'carney' });
+                    // Create shareable URL with the promise ID
+                    const shareUrl = `${window.location.origin}${window.location.pathname}?promise=${promise.id}`;
+                    // For copy-to-clipboard functionality if needed later
+                    sessionStorage.setItem('promiseShareUrl', shareUrl);
+                  }}
+                />
+              </div>
+            ))}
           </div>
           
           <div className={`w-full lg:w-1/2 transition-all duration-300 ${activePolitician === 'poilievre' ? 'block' : 'hidden lg:block'}`}>
-            <PoliticianColumn 
-              promises={filteredPoilievrePromises} 
-              politician="poilievre"
-              backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-blue-texture.png`}
-              category={selectedCategory}
-            />
+            {Object.keys(poilievreGroupedPromises).sort((a, b) => {
+              if (a === 'Unknown Date') return 1;
+              if (b === 'Unknown Date') return -1;
+              return new Date(b).getTime() - new Date(a).getTime();
+            }).map(date => (
+              <div key={date} className="mb-4 last:mb-0">
+                <PoliticianColumn 
+                  promises={poilievreGroupedPromises[date]}
+                  politician="poilievre"
+                  backgroundImage={`${import.meta.env.BASE_URL}uploads/bg-blue-texture.png`}
+                  category={selectedCategory}
+                  date={date}
+                  onPromiseClick={(promise) => {
+                    setSelectedPromise({ promise, politician: 'poilievre' });
+                    // Create shareable URL with the promise ID
+                    const shareUrl = `${window.location.origin}${window.location.pathname}?promise=${promise.id}`;
+                    // For copy-to-clipboard functionality if needed later
+                    sessionStorage.setItem('promiseShareUrl', shareUrl);
+                  }}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -207,6 +305,50 @@ const Index = () => {
           </div>
         </div>
       </footer>
+
+      <Modal 
+        isOpen={!!selectedPromise}
+        onClose={() => {
+          setSelectedPromise(null);
+          // Clear any stored promise ID
+          sessionStorage.removeItem('promiseShareUrl');
+        }}
+      >
+        {selectedPromise && (
+          <div className="flex flex-col">
+            <PromiseCard 
+              promise={selectedPromise.promise}
+              politician={selectedPromise.politician}
+              isModal={true}
+            />
+            <div className="mt-4 flex justify-center">
+              <button
+                className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-md text-sm text-white transition-colors"
+                onClick={() => {
+                  const shareUrl = sessionStorage.getItem('promiseShareUrl');
+                  if (shareUrl) {
+                    navigator.clipboard.writeText(shareUrl)
+                      .then(() => {
+                        // You could add a toast notification here
+                        alert('Link copied to clipboard!');
+                      })
+                      .catch(err => {
+                        console.error('Failed to copy: ', err);
+                      });
+                  }
+                }}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                  <polyline points="16 6 12 2 8 6"></polyline>
+                  <line x1="12" y1="2" x2="12" y2="15"></line>
+                </svg>
+                Share Link
+              </button>
+            </div>
+          </div>
+        )}
+      </Modal>
     </div>
   );
 };
